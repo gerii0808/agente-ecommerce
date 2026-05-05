@@ -1,0 +1,770 @@
+order_id,created_at,email,customer_name,lineitem_name,lineitem_quantity,lineitem_price,lineitem_discount,lineitem_cost,shipping_price,total_price,financial_status
+#ORD-1000,2025-03-07 00:00:00,juan.rodríguez@gmail.com,Juan Rodríguez,Botella Térmica 750ml,1,24.99,0.0,9.0,0.0,24.99,paid
+#ORD-1000,2025-03-07 00:00:00,juan.rodríguez@gmail.com,Juan Rodríguez,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,0.0,59.98,paid
+#ORD-1000,2025-03-07 00:00:00,juan.rodríguez@gmail.com,Juan Rodríguez,Pack Calcetines x5,1,14.99,2.25,2.5,0.0,12.74,paid
+#ORD-1001,2025-01-29 00:00:00,cliente70@email.com,Cliente70,Pack Calcetines x5,2,14.99,2.25,2.5,3.99,29.47,paid
+#ORD-1001,2025-01-29 00:00:00,cliente70@email.com,Cliente70,Mochila Trail 30L,2,59.99,0.0,12.0,3.99,123.97,paid
+#ORD-1002,2025-03-27 00:00:00,cliente44@email.com,Cliente44,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,3.99,63.97,paid
+#ORD-1003,2025-04-07 00:00:00,cliente78@email.com,Cliente78,Zapatillas Running X1,2,49.99,7.5,8.5,0.0,84.98,refunded
+#ORD-1003,2025-04-07 00:00:00,cliente78@email.com,Cliente78,Camiseta Dry-Fit Pro,2,29.99,4.5,5.0,3.99,54.97,paid
+#ORD-1004,2025-04-11 00:00:00,pedro.jiménez@gmail.com,Pedro Jiménez,Pack Calcetines x5,2,14.99,0.0,2.5,0.0,29.98,paid
+#ORD-1004,2025-04-11 00:00:00,pedro.jiménez@gmail.com,Pedro Jiménez,Pantalón Corto Sport,2,34.99,3.5,6.5,3.99,66.97,paid
+#ORD-1004,2025-04-11 00:00:00,pedro.jiménez@gmail.com,Pedro Jiménez,Gorra Trail Running,2,19.99,0.0,4.0,3.99,43.97,paid
+#ORD-1005,2025-03-30 00:00:00,cliente78@email.com,Cliente78,Mochila Trail 30L,1,59.99,0.0,12.0,4.99,64.98,refunded
+#ORD-1005,2025-03-30 00:00:00,cliente78@email.com,Cliente78,Botella Térmica 750ml,1,24.99,0.0,9.0,0.0,24.99,paid
+#ORD-1005,2025-03-30 00:00:00,cliente78@email.com,Cliente78,Zapatillas Running X1,2,49.99,5.0,8.5,3.99,93.97,paid
+#ORD-1006,2025-03-30 00:00:00,cliente28@email.com,Cliente28,Gorra Trail Running,1,19.99,2.0,4.0,4.99,22.979999999999997,refunded
+#ORD-1006,2025-03-30 00:00:00,cliente28@email.com,Cliente28,Mochila Trail 30L,2,59.99,0.0,12.0,0.0,119.98,paid
+#ORD-1006,2025-03-30 00:00:00,cliente28@email.com,Cliente28,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,paid
+#ORD-1007,2025-04-12 00:00:00,cliente66@email.com,Cliente66,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,0.0,29.99,paid
+#ORD-1007,2025-04-12 00:00:00,cliente66@email.com,Cliente66,Pantalón Corto Sport,1,34.99,3.5,6.5,4.99,36.48,refunded
+#ORD-1008,2025-02-07 00:00:00,cliente71@email.com,Cliente71,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,0.0,59.98,paid
+#ORD-1009,2025-01-17 00:00:00,cliente59@email.com,Cliente59,Botella Térmica 750ml,1,24.99,3.75,9.0,0.0,21.24,paid
+#ORD-1010,2025-02-05 00:00:00,cliente65@email.com,Cliente65,Pack Calcetines x5,1,14.99,0.0,2.5,0.0,14.99,paid
+#ORD-1010,2025-02-05 00:00:00,cliente65@email.com,Cliente65,Gorra Trail Running,2,19.99,0.0,4.0,0.0,39.98,paid
+#ORD-1010,2025-02-05 00:00:00,cliente65@email.com,Cliente65,Botella Térmica 750ml,1,24.99,0.0,9.0,0.0,24.99,paid
+#ORD-1011,2025-03-08 00:00:00,elena.navarro@gmail.com,Elena Navarro,Guantes Running,1,16.99,2.55,3.0,0.0,14.44,paid
+#ORD-1011,2025-03-08 00:00:00,elena.navarro@gmail.com,Elena Navarro,Guantes Running,1,16.99,0.0,3.0,4.99,21.979999999999997,paid
+#ORD-1011,2025-03-08 00:00:00,elena.navarro@gmail.com,Elena Navarro,Pack Calcetines x5,2,14.99,1.5,2.5,3.99,30.97,refunded
+#ORD-1012,2025-01-16 00:00:00,cliente58@email.com,Cliente58,Pack Calcetines x5,1,14.99,0.0,2.5,3.99,18.98,paid
+#ORD-1013,2025-04-12 00:00:00,cliente76@email.com,Cliente76,Pack Calcetines x5,1,14.99,0.0,2.5,0.0,14.99,paid
+#ORD-1013,2025-04-12 00:00:00,cliente76@email.com,Cliente76,Pack Calcetines x5,1,14.99,0.0,2.5,3.99,18.98,paid
+#ORD-1013,2025-04-12 00:00:00,cliente76@email.com,Cliente76,Pack Calcetines x5,2,14.99,1.5,2.5,0.0,26.98,paid
+#ORD-1014,2025-02-13 00:00:00,cliente74@email.com,Cliente74,Guantes Running,1,16.99,1.7,3.0,4.99,20.28,paid
+#ORD-1014,2025-02-13 00:00:00,cliente74@email.com,Cliente74,Camiseta Dry-Fit Pro,1,29.99,3.0,5.0,3.99,30.979999999999997,refunded
+#ORD-1014,2025-02-13 00:00:00,cliente74@email.com,Cliente74,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,paid
+#ORD-1015,2025-02-21 00:00:00,cliente44@email.com,Cliente44,Pack Calcetines x5,1,14.99,0.0,2.5,4.99,19.98,paid
+#ORD-1016,2025-01-16 00:00:00,cliente36@email.com,Cliente36,Pack Calcetines x5,1,14.99,1.5,2.5,0.0,13.49,paid
+#ORD-1016,2025-01-16 00:00:00,cliente36@email.com,Cliente36,Zapatillas Running X1,1,49.99,0.0,8.5,0.0,49.99,refunded
+#ORD-1017,2025-03-19 00:00:00,cliente63@email.com,Cliente63,Pack Calcetines x5,2,14.99,0.0,2.5,0.0,29.98,refunded
+#ORD-1017,2025-03-19 00:00:00,cliente63@email.com,Cliente63,Zapatillas Running X1,2,49.99,0.0,8.5,4.99,104.97,paid
+#ORD-1018,2025-03-15 00:00:00,cliente55@email.com,Cliente55,Guantes Running,1,16.99,0.0,3.0,3.99,20.979999999999997,paid
+#ORD-1018,2025-03-15 00:00:00,cliente55@email.com,Cliente55,Zapatillas Running X1,1,49.99,0.0,8.5,0.0,49.99,paid
+#ORD-1018,2025-03-15 00:00:00,cliente55@email.com,Cliente55,Guantes Running,1,16.99,0.0,3.0,0.0,16.99,paid
+#ORD-1019,2025-02-04 00:00:00,sofía.ruiz@gmail.com,Sofía Ruiz,Camiseta Dry-Fit Pro,1,29.99,3.0,5.0,0.0,26.99,paid
+#ORD-1019,2025-02-04 00:00:00,sofía.ruiz@gmail.com,Sofía Ruiz,Zapatillas Running X1,1,49.99,5.0,8.5,3.99,48.980000000000004,paid
+#ORD-1019,2025-02-04 00:00:00,sofía.ruiz@gmail.com,Sofía Ruiz,Pack Calcetines x5,2,14.99,0.0,2.5,3.99,33.97,refunded
+#ORD-1020,2025-02-16 00:00:00,cristina.molina@gmail.com,Cristina Molina,Botella Térmica 750ml,2,24.99,0.0,9.0,0.0,49.98,paid
+#ORD-1020,2025-02-16 00:00:00,cristina.molina@gmail.com,Cristina Molina,Guantes Running,1,16.99,0.0,3.0,0.0,16.99,paid
+#ORD-1020,2025-02-16 00:00:00,cristina.molina@gmail.com,Cristina Molina,Mochila Trail 30L,2,59.99,0.0,12.0,0.0,119.98,paid
+#ORD-1021,2025-03-31 00:00:00,cliente37@email.com,Cliente37,Guantes Running,2,16.99,2.55,3.0,0.0,28.88,paid
+#ORD-1022,2025-03-13 00:00:00,javier.alonso@gmail.com,Javier Alonso,Botella Térmica 750ml,1,24.99,0.0,9.0,0.0,24.99,paid
+#ORD-1023,2025-02-05 00:00:00,cliente37@email.com,Cliente37,Pack Calcetines x5,2,14.99,0.0,2.5,3.99,33.97,refunded
+#ORD-1023,2025-02-05 00:00:00,cliente37@email.com,Cliente37,Botella Térmica 750ml,1,24.99,0.0,9.0,4.99,29.979999999999997,paid
+#ORD-1023,2025-02-05 00:00:00,cliente37@email.com,Cliente37,Zapatillas Running X1,1,49.99,0.0,8.5,0.0,49.99,paid
+#ORD-1024,2025-04-13 00:00:00,cliente21@email.com,Cliente21,Guantes Running,2,16.99,2.55,3.0,0.0,28.88,paid
+#ORD-1024,2025-04-13 00:00:00,cliente21@email.com,Cliente21,Camiseta Dry-Fit Pro,1,29.99,4.5,5.0,0.0,25.49,paid
+#ORD-1024,2025-04-13 00:00:00,cliente21@email.com,Cliente21,Mochila Trail 30L,2,59.99,0.0,12.0,0.0,119.98,paid
+#ORD-1025,2025-03-04 00:00:00,cliente47@email.com,Cliente47,Gorra Trail Running,1,19.99,0.0,4.0,0.0,19.99,paid
+#ORD-1026,2025-03-14 00:00:00,cliente53@email.com,Cliente53,Mochila Trail 30L,1,59.99,0.0,12.0,0.0,59.99,refunded
+#ORD-1026,2025-03-14 00:00:00,cliente53@email.com,Cliente53,Zapatillas Running X1,1,49.99,0.0,8.5,4.99,54.980000000000004,paid
+#ORD-1026,2025-03-14 00:00:00,cliente53@email.com,Cliente53,Botella Térmica 750ml,1,24.99,0.0,9.0,4.99,29.979999999999997,paid
+#ORD-1027,2025-02-25 00:00:00,cliente61@email.com,Cliente61,Pack Calcetines x5,2,14.99,0.0,2.5,3.99,33.97,paid
+#ORD-1028,2025-03-15 00:00:00,cliente29@email.com,Cliente29,Pack Calcetines x5,2,14.99,0.0,2.5,3.99,33.97,paid
+#ORD-1029,2025-04-04 00:00:00,cliente36@email.com,Cliente36,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,paid
+#ORD-1029,2025-04-04 00:00:00,cliente36@email.com,Cliente36,Mochila Trail 30L,2,59.99,0.0,12.0,0.0,119.98,refunded
+#ORD-1030,2025-01-29 00:00:00,cliente45@email.com,Cliente45,Gorra Trail Running,2,19.99,3.0,4.0,0.0,33.98,refunded
+#ORD-1030,2025-01-29 00:00:00,cliente45@email.com,Cliente45,Pack Calcetines x5,2,14.99,0.0,2.5,4.99,34.97,paid
+#ORD-1030,2025-01-29 00:00:00,cliente45@email.com,Cliente45,Pack Calcetines x5,2,14.99,1.5,2.5,0.0,26.98,paid
+#ORD-1031,2025-03-17 00:00:00,cliente80@email.com,Cliente80,Camiseta Dry-Fit Pro,2,29.99,4.5,5.0,3.99,54.97,refunded
+#ORD-1031,2025-03-17 00:00:00,cliente80@email.com,Cliente80,Gorra Trail Running,2,19.99,0.0,4.0,0.0,39.98,paid
+#ORD-1032,2025-03-17 00:00:00,cliente54@email.com,Cliente54,Pantalón Corto Sport,1,34.99,5.25,6.5,3.99,33.73,refunded
+#ORD-1032,2025-03-17 00:00:00,cliente54@email.com,Cliente54,Zapatillas Running X1,2,49.99,0.0,8.5,0.0,99.98,refunded
+#ORD-1032,2025-03-17 00:00:00,cliente54@email.com,Cliente54,Gorra Trail Running,2,19.99,2.0,4.0,4.99,40.97,paid
+#ORD-1033,2025-03-02 00:00:00,cliente66@email.com,Cliente66,Mochila Trail 30L,1,59.99,0.0,12.0,3.99,63.980000000000004,paid
+#ORD-1033,2025-03-02 00:00:00,cliente66@email.com,Cliente66,Pack Calcetines x5,2,14.99,0.0,2.5,0.0,29.98,paid
+#ORD-1034,2025-03-17 00:00:00,juan.rodríguez@gmail.com,Juan Rodríguez,Pack Calcetines x5,2,14.99,2.25,2.5,0.0,25.48,refunded
+#ORD-1035,2025-03-06 00:00:00,cliente74@email.com,Cliente74,Pantalón Corto Sport,2,34.99,3.5,6.5,0.0,62.98,paid
+#ORD-1036,2025-03-10 00:00:00,ana.garcía@gmail.com,Ana García,Pantalón Corto Sport,1,34.99,0.0,6.5,4.99,39.980000000000004,paid
+#ORD-1037,2025-03-19 00:00:00,cliente72@email.com,Cliente72,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,4.99,64.97,paid
+#ORD-1038,2025-01-17 00:00:00,cliente57@email.com,Cliente57,Pantalón Corto Sport,2,34.99,0.0,6.5,4.99,74.97,refunded
+#ORD-1038,2025-01-17 00:00:00,cliente57@email.com,Cliente57,Botella Térmica 750ml,1,24.99,0.0,9.0,4.99,29.979999999999997,paid
+#ORD-1038,2025-01-17 00:00:00,cliente57@email.com,Cliente57,Botella Térmica 750ml,2,24.99,0.0,9.0,3.99,53.97,paid
+#ORD-1039,2025-02-06 00:00:00,cliente41@email.com,Cliente41,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,0.0,29.99,refunded
+#ORD-1039,2025-02-06 00:00:00,cliente41@email.com,Cliente41,Mochila Trail 30L,1,59.99,0.0,12.0,4.99,64.98,refunded
+#ORD-1039,2025-02-06 00:00:00,cliente41@email.com,Cliente41,Gorra Trail Running,2,19.99,2.0,4.0,0.0,35.98,paid
+#ORD-1040,2025-02-04 00:00:00,cliente54@email.com,Cliente54,Zapatillas Running X1,2,49.99,5.0,8.5,0.0,89.98,paid
+#ORD-1040,2025-02-04 00:00:00,cliente54@email.com,Cliente54,Botella Térmica 750ml,2,24.99,2.5,9.0,0.0,44.98,refunded
+#ORD-1041,2025-02-06 00:00:00,cliente56@email.com,Cliente56,Zapatillas Running X1,2,49.99,0.0,8.5,4.99,104.97,paid
+#ORD-1041,2025-02-06 00:00:00,cliente56@email.com,Cliente56,Guantes Running,1,16.99,2.55,3.0,0.0,14.44,refunded
+#ORD-1042,2025-02-01 00:00:00,cliente76@email.com,Cliente76,Zapatillas Running X1,1,49.99,5.0,8.5,0.0,44.99,refunded
+#ORD-1042,2025-02-01 00:00:00,cliente76@email.com,Cliente76,Mochila Trail 30L,1,59.99,0.0,12.0,4.99,64.98,paid
+#ORD-1042,2025-02-01 00:00:00,cliente76@email.com,Cliente76,Pack Calcetines x5,2,14.99,0.0,2.5,3.99,33.97,refunded
+#ORD-1043,2025-01-18 00:00:00,cliente36@email.com,Cliente36,Botella Térmica 750ml,1,24.99,2.5,9.0,0.0,22.49,paid
+#ORD-1043,2025-01-18 00:00:00,cliente36@email.com,Cliente36,Gorra Trail Running,1,19.99,0.0,4.0,0.0,19.99,paid
+#ORD-1044,2025-04-13 00:00:00,cliente32@email.com,Cliente32,Zapatillas Running X1,1,49.99,0.0,8.5,0.0,49.99,refunded
+#ORD-1045,2025-03-15 00:00:00,patricia.gil@gmail.com,Patricia Gil,Pack Calcetines x5,2,14.99,0.0,2.5,3.99,33.97,paid
+#ORD-1045,2025-03-15 00:00:00,patricia.gil@gmail.com,Patricia Gil,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,0.0,29.99,paid
+#ORD-1045,2025-03-15 00:00:00,patricia.gil@gmail.com,Patricia Gil,Botella Térmica 750ml,2,24.99,2.5,9.0,0.0,44.98,paid
+#ORD-1046,2025-01-28 00:00:00,cliente76@email.com,Cliente76,Pack Calcetines x5,1,14.99,0.0,2.5,0.0,14.99,paid
+#ORD-1046,2025-01-28 00:00:00,cliente76@email.com,Cliente76,Gorra Trail Running,2,19.99,0.0,4.0,0.0,39.98,paid
+#ORD-1046,2025-01-28 00:00:00,cliente76@email.com,Cliente76,Zapatillas Running X1,2,49.99,5.0,8.5,0.0,89.98,refunded
+#ORD-1047,2025-01-23 00:00:00,cliente59@email.com,Cliente59,Mochila Trail 30L,2,59.99,0.0,12.0,3.99,123.97,refunded
+#ORD-1047,2025-01-23 00:00:00,cliente59@email.com,Cliente59,Guantes Running,2,16.99,2.55,3.0,3.99,32.87,paid
+#ORD-1047,2025-01-23 00:00:00,cliente59@email.com,Cliente59,Pack Calcetines x5,1,14.99,0.0,2.5,4.99,19.98,paid
+#ORD-1048,2025-04-14 00:00:00,cliente60@email.com,Cliente60,Pantalón Corto Sport,2,34.99,0.0,6.5,4.99,74.97,paid
+#ORD-1048,2025-04-14 00:00:00,cliente60@email.com,Cliente60,Mochila Trail 30L,2,59.99,0.0,12.0,3.99,123.97,paid
+#ORD-1048,2025-04-14 00:00:00,cliente60@email.com,Cliente60,Gorra Trail Running,2,19.99,3.0,4.0,3.99,37.97,paid
+#ORD-1049,2025-03-08 00:00:00,cliente67@email.com,Cliente67,Camiseta Dry-Fit Pro,1,29.99,3.0,5.0,4.99,31.979999999999997,paid
+#ORD-1050,2025-01-16 00:00:00,cliente63@email.com,Cliente63,Zapatillas Running X1,1,49.99,0.0,8.5,0.0,49.99,refunded
+#ORD-1050,2025-01-16 00:00:00,cliente63@email.com,Cliente63,Pack Calcetines x5,2,14.99,2.25,2.5,3.99,29.47,refunded
+#ORD-1051,2025-04-08 00:00:00,cliente71@email.com,Cliente71,Gorra Trail Running,2,19.99,3.0,4.0,3.99,37.97,paid
+#ORD-1051,2025-04-08 00:00:00,cliente71@email.com,Cliente71,Guantes Running,2,16.99,0.0,3.0,3.99,37.97,paid
+#ORD-1051,2025-04-08 00:00:00,cliente71@email.com,Cliente71,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,0.0,29.99,paid
+#ORD-1052,2025-03-15 00:00:00,cliente25@email.com,Cliente25,Guantes Running,2,16.99,2.55,3.0,3.99,32.87,paid
+#ORD-1053,2025-03-26 00:00:00,cliente25@email.com,Cliente25,Pack Calcetines x5,2,14.99,0.0,2.5,3.99,33.97,paid
+#ORD-1053,2025-03-26 00:00:00,cliente25@email.com,Cliente25,Mochila Trail 30L,2,59.99,0.0,12.0,0.0,119.98,paid
+#ORD-1054,2025-02-27 00:00:00,cristina.molina@gmail.com,Cristina Molina,Guantes Running,1,16.99,0.0,3.0,3.99,20.979999999999997,refunded
+#ORD-1054,2025-02-27 00:00:00,cristina.molina@gmail.com,Cristina Molina,Guantes Running,2,16.99,0.0,3.0,0.0,33.98,paid
+#ORD-1054,2025-02-27 00:00:00,cristina.molina@gmail.com,Cristina Molina,Botella Térmica 750ml,2,24.99,0.0,9.0,0.0,49.98,refunded
+#ORD-1055,2025-01-22 00:00:00,cliente63@email.com,Cliente63,Zapatillas Running X1,1,49.99,0.0,8.5,3.99,53.980000000000004,paid
+#ORD-1056,2025-03-02 00:00:00,cliente32@email.com,Cliente32,Pantalón Corto Sport,1,34.99,5.25,6.5,4.99,34.73,refunded
+#ORD-1057,2025-02-18 00:00:00,cliente57@email.com,Cliente57,Pantalón Corto Sport,2,34.99,5.25,6.5,0.0,59.48,paid
+#ORD-1057,2025-02-18 00:00:00,cliente57@email.com,Cliente57,Pack Calcetines x5,1,14.99,0.0,2.5,0.0,14.99,paid
+#ORD-1058,2025-04-02 00:00:00,cliente31@email.com,Cliente31,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,4.99,34.98,refunded
+#ORD-1059,2025-04-05 00:00:00,cliente77@email.com,Cliente77,Botella Térmica 750ml,1,24.99,0.0,9.0,3.99,28.979999999999997,paid
+#ORD-1059,2025-04-05 00:00:00,cliente77@email.com,Cliente77,Guantes Running,1,16.99,0.0,3.0,3.99,20.979999999999997,paid
+#ORD-1060,2025-02-19 00:00:00,cliente55@email.com,Cliente55,Pack Calcetines x5,1,14.99,0.0,2.5,0.0,14.99,paid
+#ORD-1061,2025-03-05 00:00:00,miguel.torres@gmail.com,Miguel Torres,Botella Térmica 750ml,2,24.99,2.5,9.0,0.0,44.98,refunded
+#ORD-1062,2025-01-18 00:00:00,cliente39@email.com,Cliente39,Pantalón Corto Sport,2,34.99,5.25,6.5,4.99,64.47,refunded
+#ORD-1062,2025-01-18 00:00:00,cliente39@email.com,Cliente39,Camiseta Dry-Fit Pro,1,29.99,3.0,5.0,3.99,30.979999999999997,paid
+#ORD-1062,2025-01-18 00:00:00,cliente39@email.com,Cliente39,Zapatillas Running X1,1,49.99,0.0,8.5,0.0,49.99,paid
+#ORD-1063,2025-01-16 00:00:00,cliente23@email.com,Cliente23,Guantes Running,2,16.99,0.0,3.0,4.99,38.97,refunded
+#ORD-1063,2025-01-16 00:00:00,cliente23@email.com,Cliente23,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,4.99,64.97,paid
+#ORD-1064,2025-01-20 00:00:00,cliente42@email.com,Cliente42,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,4.99,34.98,refunded
+#ORD-1064,2025-01-20 00:00:00,cliente42@email.com,Cliente42,Botella Térmica 750ml,2,24.99,3.75,9.0,0.0,42.48,refunded
+#ORD-1064,2025-01-20 00:00:00,cliente42@email.com,Cliente42,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,3.99,63.97,paid
+#ORD-1065,2025-03-09 00:00:00,cliente52@email.com,Cliente52,Zapatillas Running X1,2,49.99,5.0,8.5,0.0,89.98,paid
+#ORD-1065,2025-03-09 00:00:00,cliente52@email.com,Cliente52,Gorra Trail Running,2,19.99,2.0,4.0,0.0,35.98,paid
+#ORD-1065,2025-03-09 00:00:00,cliente52@email.com,Cliente52,Botella Térmica 750ml,1,24.99,0.0,9.0,4.99,29.979999999999997,refunded
+#ORD-1066,2025-01-18 00:00:00,roberto.vega@gmail.com,Roberto Vega,Pack Calcetines x5,1,14.99,0.0,2.5,0.0,14.99,refunded
+#ORD-1067,2025-03-09 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,0.0,59.98,refunded
+#ORD-1068,2025-03-18 00:00:00,cliente38@email.com,Cliente38,Botella Térmica 750ml,2,24.99,2.5,9.0,4.99,49.97,paid
+#ORD-1068,2025-03-18 00:00:00,cliente38@email.com,Cliente38,Guantes Running,1,16.99,1.7,3.0,0.0,15.29,paid
+#ORD-1068,2025-03-18 00:00:00,cliente38@email.com,Cliente38,Camiseta Dry-Fit Pro,2,29.99,3.0,5.0,3.99,57.97,paid
+#ORD-1069,2025-02-01 00:00:00,ana.garcía@gmail.com,Ana García,Botella Térmica 750ml,2,24.99,0.0,9.0,4.99,54.97,refunded
+#ORD-1069,2025-02-01 00:00:00,ana.garcía@gmail.com,Ana García,Gorra Trail Running,2,19.99,3.0,4.0,4.99,38.97,refunded
+#ORD-1070,2025-04-14 00:00:00,cliente42@email.com,Cliente42,Pack Calcetines x5,2,14.99,0.0,2.5,4.99,34.97,paid
+#ORD-1071,2025-02-27 00:00:00,cliente61@email.com,Cliente61,Pantalón Corto Sport,2,34.99,0.0,6.5,4.99,74.97,paid
+#ORD-1071,2025-02-27 00:00:00,cliente61@email.com,Cliente61,Mochila Trail 30L,2,59.99,0.0,12.0,4.99,124.97,paid
+#ORD-1071,2025-02-27 00:00:00,cliente61@email.com,Cliente61,Guantes Running,1,16.99,0.0,3.0,4.99,21.979999999999997,paid
+#ORD-1072,2025-02-17 00:00:00,david.moreno@gmail.com,David Moreno,Botella Térmica 750ml,2,24.99,3.75,9.0,4.99,47.47,paid
+#ORD-1072,2025-02-17 00:00:00,david.moreno@gmail.com,David Moreno,Gorra Trail Running,2,19.99,0.0,4.0,4.99,44.97,paid
+#ORD-1073,2025-03-29 00:00:00,cliente80@email.com,Cliente80,Pack Calcetines x5,2,14.99,0.0,2.5,0.0,29.98,refunded
+#ORD-1074,2025-03-17 00:00:00,carmen.romero@gmail.com,Carmen Romero,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,3.99,63.97,paid
+#ORD-1074,2025-03-17 00:00:00,carmen.romero@gmail.com,Carmen Romero,Zapatillas Running X1,2,49.99,0.0,8.5,3.99,103.97,paid
+#ORD-1074,2025-03-17 00:00:00,carmen.romero@gmail.com,Carmen Romero,Gorra Trail Running,2,19.99,0.0,4.0,0.0,39.98,refunded
+#ORD-1075,2025-01-28 00:00:00,cliente73@email.com,Cliente73,Mochila Trail 30L,1,59.99,0.0,12.0,0.0,59.99,refunded
+#ORD-1075,2025-01-28 00:00:00,cliente73@email.com,Cliente73,Pack Calcetines x5,2,14.99,2.25,2.5,0.0,25.48,paid
+#ORD-1075,2025-01-28 00:00:00,cliente73@email.com,Cliente73,Guantes Running,2,16.99,1.7,3.0,3.99,34.57,paid
+#ORD-1076,2025-03-03 00:00:00,cliente60@email.com,Cliente60,Mochila Trail 30L,1,59.99,6.0,12.0,3.99,57.980000000000004,paid
+#ORD-1076,2025-03-03 00:00:00,cliente60@email.com,Cliente60,Pantalón Corto Sport,2,34.99,3.5,6.5,3.99,66.97,paid
+#ORD-1077,2025-01-29 00:00:00,cliente50@email.com,Cliente50,Camiseta Dry-Fit Pro,1,29.99,3.0,5.0,3.99,30.979999999999997,paid
+#ORD-1077,2025-01-29 00:00:00,cliente50@email.com,Cliente50,Botella Térmica 750ml,1,24.99,2.5,9.0,3.99,26.479999999999997,paid
+#ORD-1078,2025-03-27 00:00:00,isabel.fernández@gmail.com,Isabel Fernández,Guantes Running,2,16.99,0.0,3.0,3.99,37.97,paid
+#ORD-1078,2025-03-27 00:00:00,isabel.fernández@gmail.com,Isabel Fernández,Pack Calcetines x5,2,14.99,0.0,2.5,0.0,29.98,paid
+#ORD-1078,2025-03-27 00:00:00,isabel.fernández@gmail.com,Isabel Fernández,Botella Térmica 750ml,2,24.99,0.0,9.0,3.99,53.97,paid
+#ORD-1079,2025-04-02 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Gorra Trail Running,2,19.99,0.0,4.0,0.0,39.98,paid
+#ORD-1079,2025-04-02 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Gorra Trail Running,2,19.99,0.0,4.0,3.99,43.97,refunded
+#ORD-1080,2025-04-11 00:00:00,cliente38@email.com,Cliente38,Gorra Trail Running,1,19.99,2.0,4.0,0.0,17.99,paid
+#ORD-1080,2025-04-11 00:00:00,cliente38@email.com,Cliente38,Pack Calcetines x5,2,14.99,2.25,2.5,3.99,29.47,paid
+#ORD-1080,2025-04-11 00:00:00,cliente38@email.com,Cliente38,Pantalón Corto Sport,1,34.99,0.0,6.5,0.0,34.99,refunded
+#ORD-1081,2025-03-17 00:00:00,cliente48@email.com,Cliente48,Botella Térmica 750ml,2,24.99,0.0,9.0,0.0,49.98,paid
+#ORD-1081,2025-03-17 00:00:00,cliente48@email.com,Cliente48,Guantes Running,1,16.99,2.55,3.0,3.99,18.43,paid
+#ORD-1081,2025-03-17 00:00:00,cliente48@email.com,Cliente48,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,4.99,64.97,paid
+#ORD-1082,2025-02-23 00:00:00,fernando.ortega@gmail.com,Fernando Ortega,Zapatillas Running X1,2,49.99,5.0,8.5,0.0,89.98,paid
+#ORD-1083,2025-04-09 00:00:00,cliente31@email.com,Cliente31,Mochila Trail 30L,2,59.99,6.0,12.0,3.99,111.97,refunded
+#ORD-1083,2025-04-09 00:00:00,cliente31@email.com,Cliente31,Mochila Trail 30L,2,59.99,0.0,12.0,4.99,124.97,refunded
+#ORD-1083,2025-04-09 00:00:00,cliente31@email.com,Cliente31,Botella Térmica 750ml,1,24.99,0.0,9.0,0.0,24.99,refunded
+#ORD-1084,2025-04-04 00:00:00,cliente31@email.com,Cliente31,Camiseta Dry-Fit Pro,2,29.99,4.5,5.0,3.99,54.97,paid
+#ORD-1084,2025-04-04 00:00:00,cliente31@email.com,Cliente31,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,refunded
+#ORD-1085,2025-04-06 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Pack Calcetines x5,1,14.99,0.0,2.5,3.99,18.98,paid
+#ORD-1085,2025-04-06 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Mochila Trail 30L,1,59.99,0.0,12.0,0.0,59.99,paid
+#ORD-1085,2025-04-06 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Pack Calcetines x5,2,14.99,0.0,2.5,0.0,29.98,paid
+#ORD-1086,2025-03-08 00:00:00,beatriz.castro@gmail.com,Beatriz Castro,Botella Térmica 750ml,1,24.99,0.0,9.0,0.0,24.99,paid
+#ORD-1087,2025-04-11 00:00:00,cliente31@email.com,Cliente31,Gorra Trail Running,1,19.99,0.0,4.0,3.99,23.979999999999997,paid
+#ORD-1087,2025-04-11 00:00:00,cliente31@email.com,Cliente31,Mochila Trail 30L,2,59.99,9.0,12.0,0.0,101.98,paid
+#ORD-1087,2025-04-11 00:00:00,cliente31@email.com,Cliente31,Guantes Running,2,16.99,0.0,3.0,0.0,33.98,refunded
+#ORD-1088,2025-04-13 00:00:00,cliente65@email.com,Cliente65,Zapatillas Running X1,2,49.99,5.0,8.5,0.0,89.98,paid
+#ORD-1089,2025-03-15 00:00:00,cliente62@email.com,Cliente62,Pantalón Corto Sport,1,34.99,3.5,6.5,4.99,36.48,paid
+#ORD-1089,2025-03-15 00:00:00,cliente62@email.com,Cliente62,Camiseta Dry-Fit Pro,2,29.99,4.5,5.0,0.0,50.98,paid
+#ORD-1090,2025-02-24 00:00:00,cristina.molina@gmail.com,Cristina Molina,Gorra Trail Running,2,19.99,3.0,4.0,3.99,37.97,refunded
+#ORD-1090,2025-02-24 00:00:00,cristina.molina@gmail.com,Cristina Molina,Pantalón Corto Sport,1,34.99,0.0,6.5,0.0,34.99,refunded
+#ORD-1091,2025-02-12 00:00:00,cliente58@email.com,Cliente58,Pantalón Corto Sport,2,34.99,3.5,6.5,4.99,67.97,refunded
+#ORD-1092,2025-01-29 00:00:00,carmen.romero@gmail.com,Carmen Romero,Pantalón Corto Sport,2,34.99,0.0,6.5,3.99,73.97,paid
+#ORD-1092,2025-01-29 00:00:00,carmen.romero@gmail.com,Carmen Romero,Guantes Running,1,16.99,0.0,3.0,0.0,16.99,paid
+#ORD-1093,2025-02-28 00:00:00,cliente48@email.com,Cliente48,Zapatillas Running X1,2,49.99,0.0,8.5,4.99,104.97,paid
+#ORD-1094,2025-03-20 00:00:00,cliente55@email.com,Cliente55,Zapatillas Running X1,2,49.99,7.5,8.5,3.99,88.97,paid
+#ORD-1094,2025-03-20 00:00:00,cliente55@email.com,Cliente55,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,4.99,34.98,paid
+#ORD-1094,2025-03-20 00:00:00,cliente55@email.com,Cliente55,Camiseta Dry-Fit Pro,2,29.99,4.5,5.0,3.99,54.97,paid
+#ORD-1095,2025-04-13 00:00:00,cliente36@email.com,Cliente36,Pack Calcetines x5,2,14.99,2.25,2.5,0.0,25.48,paid
+#ORD-1095,2025-04-13 00:00:00,cliente36@email.com,Cliente36,Zapatillas Running X1,1,49.99,0.0,8.5,3.99,53.980000000000004,paid
+#ORD-1095,2025-04-13 00:00:00,cliente36@email.com,Cliente36,Gorra Trail Running,1,19.99,0.0,4.0,0.0,19.99,refunded
+#ORD-1096,2025-03-26 00:00:00,sofía.ruiz@gmail.com,Sofía Ruiz,Zapatillas Running X1,1,49.99,7.5,8.5,0.0,42.49,refunded
+#ORD-1097,2025-01-23 00:00:00,cliente44@email.com,Cliente44,Gorra Trail Running,2,19.99,0.0,4.0,0.0,39.98,paid
+#ORD-1098,2025-04-12 00:00:00,antonio.ramos@gmail.com,Antonio Ramos,Zapatillas Running X1,1,49.99,0.0,8.5,4.99,54.980000000000004,refunded
+#ORD-1099,2025-01-15 00:00:00,cliente63@email.com,Cliente63,Guantes Running,2,16.99,0.0,3.0,0.0,33.98,paid
+#ORD-1099,2025-01-15 00:00:00,cliente63@email.com,Cliente63,Gorra Trail Running,2,19.99,0.0,4.0,3.99,43.97,refunded
+#ORD-1099,2025-01-15 00:00:00,cliente63@email.com,Cliente63,Botella Térmica 750ml,1,24.99,0.0,9.0,4.99,29.979999999999997,paid
+#ORD-1100,2025-01-22 00:00:00,ana.garcía@gmail.com,Ana García,Botella Térmica 750ml,1,24.99,0.0,9.0,3.99,28.979999999999997,paid
+#ORD-1101,2025-04-12 00:00:00,cliente42@email.com,Cliente42,Zapatillas Running X1,2,49.99,5.0,8.5,0.0,89.98,paid
+#ORD-1102,2025-03-18 00:00:00,cliente49@email.com,Cliente49,Pack Calcetines x5,2,14.99,0.0,2.5,4.99,34.97,paid
+#ORD-1102,2025-03-18 00:00:00,cliente49@email.com,Cliente49,Pantalón Corto Sport,1,34.99,3.5,6.5,0.0,31.49,paid
+#ORD-1102,2025-03-18 00:00:00,cliente49@email.com,Cliente49,Pantalón Corto Sport,2,34.99,3.5,6.5,3.99,66.97,paid
+#ORD-1103,2025-01-25 00:00:00,cliente52@email.com,Cliente52,Gorra Trail Running,1,19.99,3.0,4.0,4.99,21.979999999999997,paid
+#ORD-1104,2025-04-05 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Camiseta Dry-Fit Pro,1,29.99,3.0,5.0,4.99,31.979999999999997,paid
+#ORD-1104,2025-04-05 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,paid
+#ORD-1105,2025-01-22 00:00:00,cliente22@email.com,Cliente22,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,3.99,33.98,paid
+#ORD-1106,2025-02-18 00:00:00,cliente31@email.com,Cliente31,Mochila Trail 30L,2,59.99,0.0,12.0,0.0,119.98,paid
+#ORD-1107,2025-02-18 00:00:00,david.moreno@gmail.com,David Moreno,Guantes Running,2,16.99,2.55,3.0,4.99,33.87,paid
+#ORD-1108,2025-02-16 00:00:00,cliente41@email.com,Cliente41,Guantes Running,1,16.99,1.7,3.0,4.99,20.28,paid
+#ORD-1109,2025-01-19 00:00:00,cliente36@email.com,Cliente36,Zapatillas Running X1,2,49.99,7.5,8.5,0.0,84.98,paid
+#ORD-1109,2025-01-19 00:00:00,cliente36@email.com,Cliente36,Guantes Running,2,16.99,0.0,3.0,0.0,33.98,paid
+#ORD-1109,2025-01-19 00:00:00,cliente36@email.com,Cliente36,Botella Térmica 750ml,1,24.99,0.0,9.0,4.99,29.979999999999997,refunded
+#ORD-1110,2025-02-24 00:00:00,cliente75@email.com,Cliente75,Zapatillas Running X1,2,49.99,7.5,8.5,0.0,84.98,paid
+#ORD-1110,2025-02-24 00:00:00,cliente75@email.com,Cliente75,Guantes Running,1,16.99,0.0,3.0,4.99,21.979999999999997,paid
+#ORD-1110,2025-02-24 00:00:00,cliente75@email.com,Cliente75,Gorra Trail Running,1,19.99,3.0,4.0,0.0,16.99,paid
+#ORD-1111,2025-02-11 00:00:00,cliente32@email.com,Cliente32,Guantes Running,2,16.99,2.55,3.0,0.0,28.88,paid
+#ORD-1111,2025-02-11 00:00:00,cliente32@email.com,Cliente32,Gorra Trail Running,2,19.99,2.0,4.0,4.99,40.97,paid
+#ORD-1111,2025-02-11 00:00:00,cliente32@email.com,Cliente32,Zapatillas Running X1,2,49.99,0.0,8.5,3.99,103.97,paid
+#ORD-1112,2025-01-21 00:00:00,cliente72@email.com,Cliente72,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,paid
+#ORD-1112,2025-01-21 00:00:00,cliente72@email.com,Cliente72,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,3.99,33.98,refunded
+#ORD-1112,2025-01-21 00:00:00,cliente72@email.com,Cliente72,Mochila Trail 30L,1,59.99,0.0,12.0,4.99,64.98,paid
+#ORD-1113,2025-03-28 00:00:00,cliente68@email.com,Cliente68,Pantalón Corto Sport,2,34.99,0.0,6.5,3.99,73.97,paid
+#ORD-1114,2025-02-21 00:00:00,cliente28@email.com,Cliente28,Guantes Running,1,16.99,0.0,3.0,0.0,16.99,paid
+#ORD-1114,2025-02-21 00:00:00,cliente28@email.com,Cliente28,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,0.0,59.98,paid
+#ORD-1115,2025-02-17 00:00:00,cliente80@email.com,Cliente80,Pantalón Corto Sport,1,34.99,0.0,6.5,0.0,34.99,paid
+#ORD-1116,2025-02-16 00:00:00,cliente57@email.com,Cliente57,Pantalón Corto Sport,2,34.99,0.0,6.5,4.99,74.97,paid
+#ORD-1117,2025-03-03 00:00:00,cliente58@email.com,Cliente58,Pack Calcetines x5,2,14.99,1.5,2.5,0.0,26.98,paid
+#ORD-1118,2025-02-06 00:00:00,cliente74@email.com,Cliente74,Guantes Running,2,16.99,1.7,3.0,4.99,35.57,paid
+#ORD-1118,2025-02-06 00:00:00,cliente74@email.com,Cliente74,Pack Calcetines x5,1,14.99,0.0,2.5,0.0,14.99,refunded
+#ORD-1119,2025-03-17 00:00:00,cliente48@email.com,Cliente48,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,0.0,29.99,paid
+#ORD-1119,2025-03-17 00:00:00,cliente48@email.com,Cliente48,Botella Térmica 750ml,2,24.99,3.75,9.0,0.0,42.48,refunded
+#ORD-1119,2025-03-17 00:00:00,cliente48@email.com,Cliente48,Camiseta Dry-Fit Pro,1,29.99,3.0,5.0,3.99,30.979999999999997,paid
+#ORD-1120,2025-04-12 00:00:00,cliente54@email.com,Cliente54,Pantalón Corto Sport,2,34.99,0.0,6.5,4.99,74.97,paid
+#ORD-1121,2025-02-20 00:00:00,juan.rodríguez@gmail.com,Juan Rodríguez,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,0.0,59.98,paid
+#ORD-1121,2025-02-20 00:00:00,juan.rodríguez@gmail.com,Juan Rodríguez,Botella Térmica 750ml,2,24.99,0.0,9.0,4.99,54.97,refunded
+#ORD-1122,2025-02-27 00:00:00,elena.navarro@gmail.com,Elena Navarro,Botella Térmica 750ml,1,24.99,0.0,9.0,4.99,29.979999999999997,paid
+#ORD-1123,2025-04-10 00:00:00,cliente31@email.com,Cliente31,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,4.99,34.98,refunded
+#ORD-1123,2025-04-10 00:00:00,cliente31@email.com,Cliente31,Camiseta Dry-Fit Pro,1,29.99,3.0,5.0,0.0,26.99,paid
+#ORD-1124,2025-02-18 00:00:00,beatriz.castro@gmail.com,Beatriz Castro,Pantalón Corto Sport,1,34.99,5.25,6.5,3.99,33.73,paid
+#ORD-1124,2025-02-18 00:00:00,beatriz.castro@gmail.com,Beatriz Castro,Pantalón Corto Sport,1,34.99,0.0,6.5,3.99,38.980000000000004,paid
+#ORD-1125,2025-03-20 00:00:00,cliente70@email.com,Cliente70,Zapatillas Running X1,2,49.99,5.0,8.5,0.0,89.98,refunded
+#ORD-1125,2025-03-20 00:00:00,cliente70@email.com,Cliente70,Gorra Trail Running,2,19.99,0.0,4.0,3.99,43.97,paid
+#ORD-1125,2025-03-20 00:00:00,cliente70@email.com,Cliente70,Gorra Trail Running,1,19.99,0.0,4.0,3.99,23.979999999999997,paid
+#ORD-1126,2025-03-02 00:00:00,pedro.jiménez@gmail.com,Pedro Jiménez,Gorra Trail Running,1,19.99,2.0,4.0,4.99,22.979999999999997,paid
+#ORD-1126,2025-03-02 00:00:00,pedro.jiménez@gmail.com,Pedro Jiménez,Mochila Trail 30L,1,59.99,6.0,12.0,0.0,53.99,paid
+#ORD-1127,2025-04-02 00:00:00,cliente26@email.com,Cliente26,Pack Calcetines x5,1,14.99,0.0,2.5,3.99,18.98,refunded
+#ORD-1128,2025-01-17 00:00:00,cliente70@email.com,Cliente70,Botella Térmica 750ml,1,24.99,0.0,9.0,3.99,28.979999999999997,paid
+#ORD-1128,2025-01-17 00:00:00,cliente70@email.com,Cliente70,Zapatillas Running X1,2,49.99,0.0,8.5,0.0,99.98,paid
+#ORD-1129,2025-01-15 00:00:00,cliente56@email.com,Cliente56,Guantes Running,2,16.99,0.0,3.0,0.0,33.98,refunded
+#ORD-1129,2025-01-15 00:00:00,cliente56@email.com,Cliente56,Guantes Running,2,16.99,2.55,3.0,3.99,32.87,paid
+#ORD-1130,2025-01-19 00:00:00,cliente55@email.com,Cliente55,Pantalón Corto Sport,1,34.99,5.25,6.5,3.99,33.73,paid
+#ORD-1131,2025-04-14 00:00:00,javier.alonso@gmail.com,Javier Alonso,Gorra Trail Running,2,19.99,0.0,4.0,4.99,44.97,refunded
+#ORD-1132,2025-01-28 00:00:00,cliente22@email.com,Cliente22,Guantes Running,2,16.99,1.7,3.0,0.0,30.58,paid
+#ORD-1132,2025-01-28 00:00:00,cliente22@email.com,Cliente22,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,refunded
+#ORD-1132,2025-01-28 00:00:00,cliente22@email.com,Cliente22,Gorra Trail Running,1,19.99,0.0,4.0,0.0,19.99,refunded
+#ORD-1133,2025-02-10 00:00:00,laura.sánchez@gmail.com,Laura Sánchez,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,3.99,33.98,refunded
+#ORD-1134,2025-01-23 00:00:00,laura.sánchez@gmail.com,Laura Sánchez,Mochila Trail 30L,2,59.99,0.0,12.0,3.99,123.97,refunded
+#ORD-1134,2025-01-23 00:00:00,laura.sánchez@gmail.com,Laura Sánchez,Camiseta Dry-Fit Pro,1,29.99,4.5,5.0,3.99,29.479999999999997,refunded
+#ORD-1134,2025-01-23 00:00:00,laura.sánchez@gmail.com,Laura Sánchez,Gorra Trail Running,2,19.99,0.0,4.0,0.0,39.98,paid
+#ORD-1135,2025-04-03 00:00:00,cliente64@email.com,Cliente64,Pantalón Corto Sport,1,34.99,0.0,6.5,3.99,38.980000000000004,refunded
+#ORD-1135,2025-04-03 00:00:00,cliente64@email.com,Cliente64,Pack Calcetines x5,2,14.99,1.5,2.5,0.0,26.98,paid
+#ORD-1135,2025-04-03 00:00:00,cliente64@email.com,Cliente64,Mochila Trail 30L,1,59.99,6.0,12.0,0.0,53.99,refunded
+#ORD-1136,2025-01-29 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Gorra Trail Running,2,19.99,0.0,4.0,3.99,43.97,paid
+#ORD-1136,2025-01-29 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Mochila Trail 30L,1,59.99,0.0,12.0,0.0,59.99,paid
+#ORD-1136,2025-01-29 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Pack Calcetines x5,1,14.99,0.0,2.5,4.99,19.98,paid
+#ORD-1137,2025-04-14 00:00:00,cliente47@email.com,Cliente47,Gorra Trail Running,2,19.99,3.0,4.0,0.0,33.98,paid
+#ORD-1137,2025-04-14 00:00:00,cliente47@email.com,Cliente47,Camiseta Dry-Fit Pro,2,29.99,3.0,5.0,4.99,58.97,refunded
+#ORD-1137,2025-04-14 00:00:00,cliente47@email.com,Cliente47,Pantalón Corto Sport,1,34.99,0.0,6.5,3.99,38.980000000000004,paid
+#ORD-1138,2025-02-25 00:00:00,cliente58@email.com,Cliente58,Gorra Trail Running,1,19.99,3.0,4.0,0.0,16.99,paid
+#ORD-1138,2025-02-25 00:00:00,cliente58@email.com,Cliente58,Pantalón Corto Sport,1,34.99,0.0,6.5,0.0,34.99,paid
+#ORD-1139,2025-04-01 00:00:00,cliente22@email.com,Cliente22,Gorra Trail Running,1,19.99,0.0,4.0,3.99,23.979999999999997,paid
+#ORD-1140,2025-02-06 00:00:00,cliente71@email.com,Cliente71,Mochila Trail 30L,2,59.99,9.0,12.0,0.0,101.98,paid
+#ORD-1140,2025-02-06 00:00:00,cliente71@email.com,Cliente71,Mochila Trail 30L,1,59.99,9.0,12.0,3.99,54.980000000000004,paid
+#ORD-1141,2025-03-07 00:00:00,juan.rodríguez@gmail.com,Juan Rodríguez,Zapatillas Running X1,2,49.99,0.0,8.5,4.99,104.97,paid
+#ORD-1142,2025-01-18 00:00:00,cliente64@email.com,Cliente64,Botella Térmica 750ml,2,24.99,2.5,9.0,0.0,44.98,refunded
+#ORD-1142,2025-01-18 00:00:00,cliente64@email.com,Cliente64,Botella Térmica 750ml,2,24.99,0.0,9.0,0.0,49.98,paid
+#ORD-1142,2025-01-18 00:00:00,cliente64@email.com,Cliente64,Guantes Running,2,16.99,1.7,3.0,4.99,35.57,paid
+#ORD-1143,2025-02-06 00:00:00,beatriz.castro@gmail.com,Beatriz Castro,Gorra Trail Running,2,19.99,2.0,4.0,0.0,35.98,paid
+#ORD-1143,2025-02-06 00:00:00,beatriz.castro@gmail.com,Beatriz Castro,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,4.99,64.97,paid
+#ORD-1144,2025-01-29 00:00:00,cliente35@email.com,Cliente35,Pack Calcetines x5,1,14.99,0.0,2.5,0.0,14.99,paid
+#ORD-1144,2025-01-29 00:00:00,cliente35@email.com,Cliente35,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,paid
+#ORD-1145,2025-02-26 00:00:00,cliente74@email.com,Cliente74,Gorra Trail Running,1,19.99,0.0,4.0,4.99,24.979999999999997,refunded
+#ORD-1145,2025-02-26 00:00:00,cliente74@email.com,Cliente74,Guantes Running,2,16.99,1.7,3.0,0.0,30.58,paid
+#ORD-1145,2025-02-26 00:00:00,cliente74@email.com,Cliente74,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,paid
+#ORD-1146,2025-02-12 00:00:00,isabel.fernández@gmail.com,Isabel Fernández,Botella Térmica 750ml,2,24.99,3.75,9.0,4.99,47.47,paid
+#ORD-1147,2025-02-19 00:00:00,cliente69@email.com,Cliente69,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,3.99,63.97,paid
+#ORD-1148,2025-01-27 00:00:00,cliente52@email.com,Cliente52,Zapatillas Running X1,2,49.99,0.0,8.5,0.0,99.98,paid
+#ORD-1148,2025-01-27 00:00:00,cliente52@email.com,Cliente52,Botella Térmica 750ml,1,24.99,2.5,9.0,4.99,27.479999999999997,paid
+#ORD-1149,2025-02-15 00:00:00,cliente80@email.com,Cliente80,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,4.99,34.98,paid
+#ORD-1149,2025-02-15 00:00:00,cliente80@email.com,Cliente80,Gorra Trail Running,2,19.99,0.0,4.0,0.0,39.98,refunded
+#ORD-1149,2025-02-15 00:00:00,cliente80@email.com,Cliente80,Zapatillas Running X1,1,49.99,0.0,8.5,0.0,49.99,paid
+#ORD-1150,2025-03-26 00:00:00,cliente61@email.com,Cliente61,Guantes Running,1,16.99,2.55,3.0,0.0,14.44,paid
+#ORD-1150,2025-03-26 00:00:00,cliente61@email.com,Cliente61,Gorra Trail Running,1,19.99,2.0,4.0,3.99,21.979999999999997,paid
+#ORD-1150,2025-03-26 00:00:00,cliente61@email.com,Cliente61,Guantes Running,2,16.99,1.7,3.0,0.0,30.58,paid
+#ORD-1151,2025-03-14 00:00:00,patricia.gil@gmail.com,Patricia Gil,Botella Térmica 750ml,1,24.99,3.75,9.0,4.99,26.229999999999997,paid
+#ORD-1151,2025-03-14 00:00:00,patricia.gil@gmail.com,Patricia Gil,Pack Calcetines x5,1,14.99,2.25,2.5,4.99,17.73,paid
+#ORD-1152,2025-04-10 00:00:00,cliente80@email.com,Cliente80,Mochila Trail 30L,1,59.99,0.0,12.0,0.0,59.99,paid
+#ORD-1152,2025-04-10 00:00:00,cliente80@email.com,Cliente80,Zapatillas Running X1,2,49.99,0.0,8.5,4.99,104.97,paid
+#ORD-1153,2025-02-11 00:00:00,cliente53@email.com,Cliente53,Pack Calcetines x5,2,14.99,2.25,2.5,4.99,30.47,paid
+#ORD-1153,2025-02-11 00:00:00,cliente53@email.com,Cliente53,Mochila Trail 30L,1,59.99,9.0,12.0,3.99,54.980000000000004,refunded
+#ORD-1153,2025-02-11 00:00:00,cliente53@email.com,Cliente53,Pantalón Corto Sport,2,34.99,0.0,6.5,4.99,74.97,paid
+#ORD-1154,2025-03-21 00:00:00,cliente34@email.com,Cliente34,Guantes Running,1,16.99,0.0,3.0,3.99,20.979999999999997,paid
+#ORD-1154,2025-03-21 00:00:00,cliente34@email.com,Cliente34,Pack Calcetines x5,2,14.99,0.0,2.5,0.0,29.98,refunded
+#ORD-1154,2025-03-21 00:00:00,cliente34@email.com,Cliente34,Gorra Trail Running,2,19.99,0.0,4.0,3.99,43.97,paid
+#ORD-1155,2025-02-25 00:00:00,roberto.vega@gmail.com,Roberto Vega,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,paid
+#ORD-1155,2025-02-25 00:00:00,roberto.vega@gmail.com,Roberto Vega,Zapatillas Running X1,2,49.99,0.0,8.5,3.99,103.97,refunded
+#ORD-1155,2025-02-25 00:00:00,roberto.vega@gmail.com,Roberto Vega,Botella Térmica 750ml,2,24.99,0.0,9.0,0.0,49.98,paid
+#ORD-1156,2025-02-28 00:00:00,cliente35@email.com,Cliente35,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,0.0,29.99,paid
+#ORD-1157,2025-03-17 00:00:00,cliente30@email.com,Cliente30,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,4.99,64.97,paid
+#ORD-1158,2025-03-12 00:00:00,fernando.ortega@gmail.com,Fernando Ortega,Mochila Trail 30L,2,59.99,6.0,12.0,4.99,112.97,paid
+#ORD-1159,2025-01-20 00:00:00,cliente37@email.com,Cliente37,Botella Térmica 750ml,1,24.99,0.0,9.0,0.0,24.99,paid
+#ORD-1159,2025-01-20 00:00:00,cliente37@email.com,Cliente37,Mochila Trail 30L,2,59.99,0.0,12.0,0.0,119.98,refunded
+#ORD-1160,2025-02-11 00:00:00,cliente64@email.com,Cliente64,Botella Térmica 750ml,1,24.99,0.0,9.0,3.99,28.979999999999997,paid
+#ORD-1161,2025-02-11 00:00:00,cliente43@email.com,Cliente43,Guantes Running,2,16.99,0.0,3.0,4.99,38.97,paid
+#ORD-1161,2025-02-11 00:00:00,cliente43@email.com,Cliente43,Pack Calcetines x5,1,14.99,0.0,2.5,0.0,14.99,refunded
+#ORD-1162,2025-02-27 00:00:00,cliente24@email.com,Cliente24,Gorra Trail Running,2,19.99,3.0,4.0,0.0,33.98,paid
+#ORD-1163,2025-04-08 00:00:00,cliente79@email.com,Cliente79,Pantalón Corto Sport,2,34.99,5.25,6.5,3.99,63.47,paid
+#ORD-1163,2025-04-08 00:00:00,cliente79@email.com,Cliente79,Pantalón Corto Sport,1,34.99,0.0,6.5,0.0,34.99,refunded
+#ORD-1163,2025-04-08 00:00:00,cliente79@email.com,Cliente79,Gorra Trail Running,1,19.99,0.0,4.0,3.99,23.979999999999997,refunded
+#ORD-1164,2025-02-20 00:00:00,cliente35@email.com,Cliente35,Botella Térmica 750ml,1,24.99,0.0,9.0,3.99,28.979999999999997,paid
+#ORD-1164,2025-02-20 00:00:00,cliente35@email.com,Cliente35,Zapatillas Running X1,1,49.99,5.0,8.5,3.99,48.980000000000004,paid
+#ORD-1165,2025-04-13 00:00:00,cliente52@email.com,Cliente52,Botella Térmica 750ml,1,24.99,0.0,9.0,3.99,28.979999999999997,paid
+#ORD-1165,2025-04-13 00:00:00,cliente52@email.com,Cliente52,Pack Calcetines x5,1,14.99,1.5,2.5,0.0,13.49,refunded
+#ORD-1165,2025-04-13 00:00:00,cliente52@email.com,Cliente52,Gorra Trail Running,2,19.99,3.0,4.0,4.99,38.97,paid
+#ORD-1166,2025-03-17 00:00:00,cliente32@email.com,Cliente32,Camiseta Dry-Fit Pro,2,29.99,4.5,5.0,3.99,54.97,paid
+#ORD-1166,2025-03-17 00:00:00,cliente32@email.com,Cliente32,Camiseta Dry-Fit Pro,1,29.99,4.5,5.0,0.0,25.49,paid
+#ORD-1166,2025-03-17 00:00:00,cliente32@email.com,Cliente32,Mochila Trail 30L,2,59.99,9.0,12.0,4.99,106.97,paid
+#ORD-1167,2025-01-15 00:00:00,cliente27@email.com,Cliente27,Guantes Running,1,16.99,2.55,3.0,4.99,19.43,paid
+#ORD-1167,2025-01-15 00:00:00,cliente27@email.com,Cliente27,Guantes Running,1,16.99,2.55,3.0,4.99,19.43,refunded
+#ORD-1167,2025-01-15 00:00:00,cliente27@email.com,Cliente27,Zapatillas Running X1,2,49.99,0.0,8.5,0.0,99.98,refunded
+#ORD-1168,2025-02-10 00:00:00,cliente33@email.com,Cliente33,Pack Calcetines x5,1,14.99,0.0,2.5,4.99,19.98,paid
+#ORD-1169,2025-03-17 00:00:00,sofía.ruiz@gmail.com,Sofía Ruiz,Zapatillas Running X1,1,49.99,5.0,8.5,0.0,44.99,paid
+#ORD-1169,2025-03-17 00:00:00,sofía.ruiz@gmail.com,Sofía Ruiz,Pantalón Corto Sport,1,34.99,0.0,6.5,4.99,39.980000000000004,paid
+#ORD-1169,2025-03-17 00:00:00,sofía.ruiz@gmail.com,Sofía Ruiz,Pantalón Corto Sport,2,34.99,3.5,6.5,4.99,67.97,paid
+#ORD-1170,2025-04-01 00:00:00,cliente70@email.com,Cliente70,Gorra Trail Running,1,19.99,0.0,4.0,4.99,24.979999999999997,paid
+#ORD-1171,2025-01-17 00:00:00,cliente29@email.com,Cliente29,Zapatillas Running X1,2,49.99,5.0,8.5,4.99,94.97,refunded
+#ORD-1172,2025-03-25 00:00:00,cliente30@email.com,Cliente30,Guantes Running,2,16.99,0.0,3.0,3.99,37.97,paid
+#ORD-1173,2025-03-27 00:00:00,patricia.gil@gmail.com,Patricia Gil,Pantalón Corto Sport,1,34.99,0.0,6.5,0.0,34.99,paid
+#ORD-1174,2025-02-10 00:00:00,carmen.romero@gmail.com,Carmen Romero,Zapatillas Running X1,2,49.99,7.5,8.5,0.0,84.98,paid
+#ORD-1174,2025-02-10 00:00:00,carmen.romero@gmail.com,Carmen Romero,Zapatillas Running X1,2,49.99,5.0,8.5,0.0,89.98,paid
+#ORD-1174,2025-02-10 00:00:00,carmen.romero@gmail.com,Carmen Romero,Zapatillas Running X1,1,49.99,7.5,8.5,3.99,46.480000000000004,paid
+#ORD-1175,2025-01-23 00:00:00,cliente74@email.com,Cliente74,Gorra Trail Running,1,19.99,0.0,4.0,0.0,19.99,paid
+#ORD-1175,2025-01-23 00:00:00,cliente74@email.com,Cliente74,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,paid
+#ORD-1176,2025-03-17 00:00:00,cliente55@email.com,Cliente55,Guantes Running,1,16.99,0.0,3.0,4.99,21.979999999999997,paid
+#ORD-1176,2025-03-17 00:00:00,cliente55@email.com,Cliente55,Pantalón Corto Sport,2,34.99,0.0,6.5,3.99,73.97,refunded
+#ORD-1176,2025-03-17 00:00:00,cliente55@email.com,Cliente55,Mochila Trail 30L,2,59.99,0.0,12.0,0.0,119.98,paid
+#ORD-1177,2025-02-20 00:00:00,beatriz.castro@gmail.com,Beatriz Castro,Zapatillas Running X1,2,49.99,5.0,8.5,0.0,89.98,refunded
+#ORD-1177,2025-02-20 00:00:00,beatriz.castro@gmail.com,Beatriz Castro,Pack Calcetines x5,2,14.99,0.0,2.5,3.99,33.97,paid
+#ORD-1178,2025-03-06 00:00:00,cliente48@email.com,Cliente48,Pack Calcetines x5,1,14.99,0.0,2.5,4.99,19.98,paid
+#ORD-1179,2025-02-27 00:00:00,cliente25@email.com,Cliente25,Pack Calcetines x5,2,14.99,0.0,2.5,3.99,33.97,paid
+#ORD-1179,2025-02-27 00:00:00,cliente25@email.com,Cliente25,Zapatillas Running X1,1,49.99,0.0,8.5,0.0,49.99,refunded
+#ORD-1179,2025-02-27 00:00:00,cliente25@email.com,Cliente25,Pack Calcetines x5,1,14.99,1.5,2.5,0.0,13.49,paid
+#ORD-1180,2025-02-07 00:00:00,cliente49@email.com,Cliente49,Gorra Trail Running,2,19.99,0.0,4.0,3.99,43.97,refunded
+#ORD-1180,2025-02-07 00:00:00,cliente49@email.com,Cliente49,Guantes Running,1,16.99,1.7,3.0,3.99,19.28,paid
+#ORD-1181,2025-04-03 00:00:00,cliente53@email.com,Cliente53,Pack Calcetines x5,1,14.99,0.0,2.5,3.99,18.98,refunded
+#ORD-1182,2025-03-28 00:00:00,cliente26@email.com,Cliente26,Pack Calcetines x5,2,14.99,2.25,2.5,0.0,25.48,refunded
+#ORD-1182,2025-03-28 00:00:00,cliente26@email.com,Cliente26,Gorra Trail Running,2,19.99,2.0,4.0,4.99,40.97,refunded
+#ORD-1183,2025-02-15 00:00:00,cliente22@email.com,Cliente22,Gorra Trail Running,1,19.99,0.0,4.0,4.99,24.979999999999997,paid
+#ORD-1183,2025-02-15 00:00:00,cliente22@email.com,Cliente22,Zapatillas Running X1,1,49.99,0.0,8.5,0.0,49.99,paid
+#ORD-1183,2025-02-15 00:00:00,cliente22@email.com,Cliente22,Pantalón Corto Sport,1,34.99,0.0,6.5,0.0,34.99,paid
+#ORD-1184,2025-04-12 00:00:00,carlos.lópez@gmail.com,Carlos López,Guantes Running,2,16.99,0.0,3.0,4.99,38.97,refunded
+#ORD-1185,2025-03-13 00:00:00,cliente69@email.com,Cliente69,Pantalón Corto Sport,1,34.99,0.0,6.5,3.99,38.980000000000004,paid
+#ORD-1185,2025-03-13 00:00:00,cliente69@email.com,Cliente69,Zapatillas Running X1,2,49.99,0.0,8.5,0.0,99.98,paid
+#ORD-1185,2025-03-13 00:00:00,cliente69@email.com,Cliente69,Mochila Trail 30L,1,59.99,0.0,12.0,3.99,63.980000000000004,paid
+#ORD-1186,2025-03-17 00:00:00,cliente35@email.com,Cliente35,Camiseta Dry-Fit Pro,2,29.99,3.0,5.0,4.99,58.97,paid
+#ORD-1186,2025-03-17 00:00:00,cliente35@email.com,Cliente35,Pack Calcetines x5,2,14.99,0.0,2.5,0.0,29.98,paid
+#ORD-1187,2025-03-13 00:00:00,cliente49@email.com,Cliente49,Guantes Running,1,16.99,0.0,3.0,0.0,16.99,paid
+#ORD-1187,2025-03-13 00:00:00,cliente49@email.com,Cliente49,Guantes Running,2,16.99,0.0,3.0,0.0,33.98,paid
+#ORD-1187,2025-03-13 00:00:00,cliente49@email.com,Cliente49,Pack Calcetines x5,1,14.99,2.25,2.5,4.99,17.73,paid
+#ORD-1188,2025-02-21 00:00:00,david.moreno@gmail.com,David Moreno,Botella Térmica 750ml,1,24.99,0.0,9.0,3.99,28.979999999999997,paid
+#ORD-1188,2025-02-21 00:00:00,david.moreno@gmail.com,David Moreno,Pack Calcetines x5,1,14.99,1.5,2.5,0.0,13.49,paid
+#ORD-1188,2025-02-21 00:00:00,david.moreno@gmail.com,David Moreno,Mochila Trail 30L,1,59.99,9.0,12.0,4.99,55.980000000000004,paid
+#ORD-1189,2025-02-22 00:00:00,cliente50@email.com,Cliente50,Mochila Trail 30L,1,59.99,9.0,12.0,3.99,54.980000000000004,paid
+#ORD-1189,2025-02-22 00:00:00,cliente50@email.com,Cliente50,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,0.0,59.98,paid
+#ORD-1189,2025-02-22 00:00:00,cliente50@email.com,Cliente50,Pantalón Corto Sport,2,34.99,0.0,6.5,3.99,73.97,refunded
+#ORD-1190,2025-01-16 00:00:00,cliente46@email.com,Cliente46,Pantalón Corto Sport,2,34.99,0.0,6.5,4.99,74.97,paid
+#ORD-1190,2025-01-16 00:00:00,cliente46@email.com,Cliente46,Botella Térmica 750ml,1,24.99,0.0,9.0,0.0,24.99,paid
+#ORD-1190,2025-01-16 00:00:00,cliente46@email.com,Cliente46,Mochila Trail 30L,2,59.99,0.0,12.0,4.99,124.97,paid
+#ORD-1191,2025-01-17 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Botella Térmica 750ml,2,24.99,0.0,9.0,3.99,53.97,paid
+#ORD-1192,2025-03-11 00:00:00,cristina.molina@gmail.com,Cristina Molina,Mochila Trail 30L,2,59.99,6.0,12.0,4.99,112.97,paid
+#ORD-1193,2025-04-05 00:00:00,juan.rodríguez@gmail.com,Juan Rodríguez,Gorra Trail Running,1,19.99,3.0,4.0,3.99,20.979999999999997,refunded
+#ORD-1194,2025-03-13 00:00:00,cliente53@email.com,Cliente53,Camiseta Dry-Fit Pro,1,29.99,4.5,5.0,0.0,25.49,refunded
+#ORD-1194,2025-03-13 00:00:00,cliente53@email.com,Cliente53,Mochila Trail 30L,1,59.99,0.0,12.0,3.99,63.980000000000004,paid
+#ORD-1195,2025-01-16 00:00:00,sofía.ruiz@gmail.com,Sofía Ruiz,Pantalón Corto Sport,2,34.99,3.5,6.5,3.99,66.97,refunded
+#ORD-1196,2025-01-16 00:00:00,cliente47@email.com,Cliente47,Pack Calcetines x5,2,14.99,2.25,2.5,0.0,25.48,refunded
+#ORD-1196,2025-01-16 00:00:00,cliente47@email.com,Cliente47,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,0.0,29.99,refunded
+#ORD-1197,2025-03-09 00:00:00,cliente43@email.com,Cliente43,Pantalón Corto Sport,2,34.99,3.5,6.5,3.99,66.97,refunded
+#ORD-1197,2025-03-09 00:00:00,cliente43@email.com,Cliente43,Mochila Trail 30L,2,59.99,0.0,12.0,0.0,119.98,refunded
+#ORD-1197,2025-03-09 00:00:00,cliente43@email.com,Cliente43,Gorra Trail Running,1,19.99,2.0,4.0,3.99,21.979999999999997,paid
+#ORD-1198,2025-04-11 00:00:00,cliente63@email.com,Cliente63,Pack Calcetines x5,2,14.99,1.5,2.5,3.99,30.97,refunded
+#ORD-1198,2025-04-11 00:00:00,cliente63@email.com,Cliente63,Gorra Trail Running,1,19.99,3.0,4.0,0.0,16.99,paid
+#ORD-1198,2025-04-11 00:00:00,cliente63@email.com,Cliente63,Zapatillas Running X1,2,49.99,0.0,8.5,4.99,104.97,paid
+#ORD-1199,2025-01-15 00:00:00,sofía.ruiz@gmail.com,Sofía Ruiz,Guantes Running,1,16.99,0.0,3.0,0.0,16.99,paid
+#ORD-1199,2025-01-15 00:00:00,sofía.ruiz@gmail.com,Sofía Ruiz,Mochila Trail 30L,2,59.99,6.0,12.0,0.0,107.98,refunded
+#ORD-1200,2025-02-02 00:00:00,cliente77@email.com,Cliente77,Pantalón Corto Sport,2,34.99,5.25,6.5,0.0,59.48,paid
+#ORD-1200,2025-02-02 00:00:00,cliente77@email.com,Cliente77,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,3.99,33.98,paid
+#ORD-1201,2025-01-16 00:00:00,pedro.jiménez@gmail.com,Pedro Jiménez,Pantalón Corto Sport,2,34.99,3.5,6.5,0.0,62.98,paid
+#ORD-1201,2025-01-16 00:00:00,pedro.jiménez@gmail.com,Pedro Jiménez,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,0.0,59.98,refunded
+#ORD-1201,2025-01-16 00:00:00,pedro.jiménez@gmail.com,Pedro Jiménez,Gorra Trail Running,2,19.99,2.0,4.0,0.0,35.98,paid
+#ORD-1202,2025-03-08 00:00:00,juan.rodríguez@gmail.com,Juan Rodríguez,Camiseta Dry-Fit Pro,2,29.99,3.0,5.0,0.0,53.98,paid
+#ORD-1202,2025-03-08 00:00:00,juan.rodríguez@gmail.com,Juan Rodríguez,Mochila Trail 30L,2,59.99,0.0,12.0,3.99,123.97,refunded
+#ORD-1203,2025-02-27 00:00:00,cliente67@email.com,Cliente67,Gorra Trail Running,2,19.99,0.0,4.0,4.99,44.97,refunded
+#ORD-1203,2025-02-27 00:00:00,cliente67@email.com,Cliente67,Gorra Trail Running,1,19.99,0.0,4.0,0.0,19.99,paid
+#ORD-1204,2025-04-14 00:00:00,maría.martínez@gmail.com,María Martínez,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,0.0,29.99,paid
+#ORD-1204,2025-04-14 00:00:00,maría.martínez@gmail.com,María Martínez,Gorra Trail Running,2,19.99,2.0,4.0,0.0,35.98,refunded
+#ORD-1205,2025-02-15 00:00:00,cliente24@email.com,Cliente24,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,refunded
+#ORD-1206,2025-03-25 00:00:00,cliente76@email.com,Cliente76,Pantalón Corto Sport,1,34.99,0.0,6.5,0.0,34.99,paid
+#ORD-1206,2025-03-25 00:00:00,cliente76@email.com,Cliente76,Camiseta Dry-Fit Pro,1,29.99,4.5,5.0,0.0,25.49,paid
+#ORD-1207,2025-02-15 00:00:00,cliente42@email.com,Cliente42,Guantes Running,1,16.99,0.0,3.0,4.99,21.979999999999997,paid
+#ORD-1208,2025-03-23 00:00:00,cliente77@email.com,Cliente77,Pantalón Corto Sport,1,34.99,0.0,6.5,3.99,38.980000000000004,refunded
+#ORD-1208,2025-03-23 00:00:00,cliente77@email.com,Cliente77,Mochila Trail 30L,2,59.99,9.0,12.0,0.0,101.98,paid
+#ORD-1209,2025-03-10 00:00:00,cliente41@email.com,Cliente41,Pack Calcetines x5,2,14.99,0.0,2.5,0.0,29.98,paid
+#ORD-1210,2025-03-30 00:00:00,beatriz.castro@gmail.com,Beatriz Castro,Pantalón Corto Sport,2,34.99,5.25,6.5,0.0,59.48,refunded
+#ORD-1210,2025-03-30 00:00:00,beatriz.castro@gmail.com,Beatriz Castro,Pantalón Corto Sport,1,34.99,3.5,6.5,0.0,31.49,paid
+#ORD-1210,2025-03-30 00:00:00,beatriz.castro@gmail.com,Beatriz Castro,Guantes Running,2,16.99,0.0,3.0,0.0,33.98,paid
+#ORD-1211,2025-03-11 00:00:00,cliente58@email.com,Cliente58,Zapatillas Running X1,2,49.99,0.0,8.5,4.99,104.97,paid
+#ORD-1211,2025-03-11 00:00:00,cliente58@email.com,Cliente58,Pack Calcetines x5,2,14.99,2.25,2.5,4.99,30.47,refunded
+#ORD-1211,2025-03-11 00:00:00,cliente58@email.com,Cliente58,Guantes Running,2,16.99,1.7,3.0,4.99,35.57,paid
+#ORD-1212,2025-01-31 00:00:00,juan.rodríguez@gmail.com,Juan Rodríguez,Botella Térmica 750ml,1,24.99,0.0,9.0,0.0,24.99,paid
+#ORD-1213,2025-01-30 00:00:00,cliente59@email.com,Cliente59,Guantes Running,1,16.99,2.55,3.0,0.0,14.44,paid
+#ORD-1213,2025-01-30 00:00:00,cliente59@email.com,Cliente59,Gorra Trail Running,1,19.99,2.0,4.0,0.0,17.99,refunded
+#ORD-1213,2025-01-30 00:00:00,cliente59@email.com,Cliente59,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,0.0,29.99,refunded
+#ORD-1214,2025-03-25 00:00:00,cliente34@email.com,Cliente34,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,0.0,59.98,paid
+#ORD-1214,2025-03-25 00:00:00,cliente34@email.com,Cliente34,Gorra Trail Running,2,19.99,0.0,4.0,0.0,39.98,paid
+#ORD-1215,2025-04-10 00:00:00,miguel.torres@gmail.com,Miguel Torres,Gorra Trail Running,2,19.99,3.0,4.0,0.0,33.98,paid
+#ORD-1215,2025-04-10 00:00:00,miguel.torres@gmail.com,Miguel Torres,Botella Térmica 750ml,2,24.99,3.75,9.0,3.99,46.47,paid
+#ORD-1215,2025-04-10 00:00:00,miguel.torres@gmail.com,Miguel Torres,Mochila Trail 30L,2,59.99,0.0,12.0,3.99,123.97,paid
+#ORD-1216,2025-01-25 00:00:00,cristina.molina@gmail.com,Cristina Molina,Mochila Trail 30L,2,59.99,0.0,12.0,4.99,124.97,refunded
+#ORD-1217,2025-01-16 00:00:00,cliente35@email.com,Cliente35,Pantalón Corto Sport,2,34.99,3.5,6.5,0.0,62.98,paid
+#ORD-1217,2025-01-16 00:00:00,cliente35@email.com,Cliente35,Pantalón Corto Sport,2,34.99,0.0,6.5,4.99,74.97,refunded
+#ORD-1217,2025-01-16 00:00:00,cliente35@email.com,Cliente35,Gorra Trail Running,1,19.99,0.0,4.0,4.99,24.979999999999997,paid
+#ORD-1218,2025-03-28 00:00:00,cliente69@email.com,Cliente69,Pack Calcetines x5,2,14.99,0.0,2.5,4.99,34.97,paid
+#ORD-1218,2025-03-28 00:00:00,cliente69@email.com,Cliente69,Gorra Trail Running,2,19.99,0.0,4.0,0.0,39.98,refunded
+#ORD-1219,2025-03-14 00:00:00,isabel.fernández@gmail.com,Isabel Fernández,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,0.0,59.98,paid
+#ORD-1220,2025-03-25 00:00:00,cliente57@email.com,Cliente57,Zapatillas Running X1,2,49.99,0.0,8.5,0.0,99.98,paid
+#ORD-1220,2025-03-25 00:00:00,cliente57@email.com,Cliente57,Mochila Trail 30L,2,59.99,0.0,12.0,3.99,123.97,paid
+#ORD-1221,2025-01-23 00:00:00,cliente22@email.com,Cliente22,Pantalón Corto Sport,2,34.99,0.0,6.5,4.99,74.97,paid
+#ORD-1222,2025-02-03 00:00:00,carmen.romero@gmail.com,Carmen Romero,Pack Calcetines x5,2,14.99,0.0,2.5,0.0,29.98,paid
+#ORD-1223,2025-03-14 00:00:00,cliente57@email.com,Cliente57,Zapatillas Running X1,2,49.99,0.0,8.5,4.99,104.97,paid
+#ORD-1224,2025-02-19 00:00:00,cliente62@email.com,Cliente62,Pack Calcetines x5,2,14.99,0.0,2.5,0.0,29.98,paid
+#ORD-1225,2025-02-02 00:00:00,cliente41@email.com,Cliente41,Botella Térmica 750ml,1,24.99,2.5,9.0,0.0,22.49,paid
+#ORD-1225,2025-02-02 00:00:00,cliente41@email.com,Cliente41,Camiseta Dry-Fit Pro,1,29.99,4.5,5.0,0.0,25.49,refunded
+#ORD-1226,2025-04-14 00:00:00,cliente45@email.com,Cliente45,Pack Calcetines x5,1,14.99,1.5,2.5,4.99,18.48,paid
+#ORD-1226,2025-04-14 00:00:00,cliente45@email.com,Cliente45,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,0.0,29.99,refunded
+#ORD-1226,2025-04-14 00:00:00,cliente45@email.com,Cliente45,Gorra Trail Running,2,19.99,0.0,4.0,0.0,39.98,paid
+#ORD-1227,2025-03-22 00:00:00,cliente36@email.com,Cliente36,Camiseta Dry-Fit Pro,1,29.99,4.5,5.0,3.99,29.479999999999997,paid
+#ORD-1227,2025-03-22 00:00:00,cliente36@email.com,Cliente36,Botella Térmica 750ml,1,24.99,3.75,9.0,0.0,21.24,refunded
+#ORD-1227,2025-03-22 00:00:00,cliente36@email.com,Cliente36,Botella Térmica 750ml,1,24.99,0.0,9.0,4.99,29.979999999999997,refunded
+#ORD-1228,2025-02-02 00:00:00,patricia.gil@gmail.com,Patricia Gil,Guantes Running,1,16.99,2.55,3.0,0.0,14.44,paid
+#ORD-1229,2025-02-03 00:00:00,cliente41@email.com,Cliente41,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,refunded
+#ORD-1230,2025-03-26 00:00:00,david.moreno@gmail.com,David Moreno,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,0.0,29.99,paid
+#ORD-1231,2025-03-07 00:00:00,cliente51@email.com,Cliente51,Botella Térmica 750ml,2,24.99,2.5,9.0,4.99,49.97,paid
+#ORD-1231,2025-03-07 00:00:00,cliente51@email.com,Cliente51,Mochila Trail 30L,2,59.99,0.0,12.0,3.99,123.97,paid
+#ORD-1231,2025-03-07 00:00:00,cliente51@email.com,Cliente51,Pack Calcetines x5,1,14.99,2.25,2.5,3.99,16.73,refunded
+#ORD-1232,2025-02-16 00:00:00,cliente76@email.com,Cliente76,Camiseta Dry-Fit Pro,2,29.99,3.0,5.0,0.0,53.98,paid
+#ORD-1232,2025-02-16 00:00:00,cliente76@email.com,Cliente76,Pack Calcetines x5,1,14.99,1.5,2.5,0.0,13.49,refunded
+#ORD-1232,2025-02-16 00:00:00,cliente76@email.com,Cliente76,Zapatillas Running X1,2,49.99,0.0,8.5,0.0,99.98,paid
+#ORD-1233,2025-02-23 00:00:00,fernando.ortega@gmail.com,Fernando Ortega,Zapatillas Running X1,1,49.99,5.0,8.5,3.99,48.980000000000004,paid
+#ORD-1233,2025-02-23 00:00:00,fernando.ortega@gmail.com,Fernando Ortega,Mochila Trail 30L,2,59.99,0.0,12.0,3.99,123.97,paid
+#ORD-1233,2025-02-23 00:00:00,fernando.ortega@gmail.com,Fernando Ortega,Zapatillas Running X1,2,49.99,5.0,8.5,3.99,93.97,paid
+#ORD-1234,2025-02-22 00:00:00,cliente34@email.com,Cliente34,Camiseta Dry-Fit Pro,2,29.99,3.0,5.0,3.99,57.97,paid
+#ORD-1234,2025-02-22 00:00:00,cliente34@email.com,Cliente34,Guantes Running,1,16.99,0.0,3.0,0.0,16.99,paid
+#ORD-1234,2025-02-22 00:00:00,cliente34@email.com,Cliente34,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,0.0,29.99,paid
+#ORD-1235,2025-04-06 00:00:00,carlos.lópez@gmail.com,Carlos López,Zapatillas Running X1,2,49.99,0.0,8.5,4.99,104.97,paid
+#ORD-1236,2025-01-15 00:00:00,cliente23@email.com,Cliente23,Pantalón Corto Sport,1,34.99,0.0,6.5,0.0,34.99,refunded
+#ORD-1237,2025-01-25 00:00:00,cliente41@email.com,Cliente41,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,0.0,59.98,paid
+#ORD-1237,2025-01-25 00:00:00,cliente41@email.com,Cliente41,Pack Calcetines x5,1,14.99,1.5,2.5,0.0,13.49,refunded
+#ORD-1238,2025-03-12 00:00:00,cliente37@email.com,Cliente37,Gorra Trail Running,1,19.99,3.0,4.0,4.99,21.979999999999997,paid
+#ORD-1238,2025-03-12 00:00:00,cliente37@email.com,Cliente37,Gorra Trail Running,1,19.99,0.0,4.0,3.99,23.979999999999997,paid
+#ORD-1239,2025-04-13 00:00:00,cliente60@email.com,Cliente60,Guantes Running,1,16.99,2.55,3.0,0.0,14.44,paid
+#ORD-1239,2025-04-13 00:00:00,cliente60@email.com,Cliente60,Zapatillas Running X1,2,49.99,0.0,8.5,0.0,99.98,paid
+#ORD-1240,2025-03-05 00:00:00,carlos.lópez@gmail.com,Carlos López,Zapatillas Running X1,2,49.99,0.0,8.5,0.0,99.98,paid
+#ORD-1240,2025-03-05 00:00:00,carlos.lópez@gmail.com,Carlos López,Pack Calcetines x5,2,14.99,1.5,2.5,0.0,26.98,paid
+#ORD-1241,2025-02-06 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Pack Calcetines x5,2,14.99,0.0,2.5,4.99,34.97,paid
+#ORD-1242,2025-02-14 00:00:00,cliente65@email.com,Cliente65,Pantalón Corto Sport,1,34.99,5.25,6.5,0.0,29.74,refunded
+#ORD-1243,2025-02-25 00:00:00,cristina.molina@gmail.com,Cristina Molina,Botella Térmica 750ml,2,24.99,0.0,9.0,4.99,54.97,paid
+#ORD-1244,2025-01-21 00:00:00,cliente41@email.com,Cliente41,Botella Térmica 750ml,1,24.99,0.0,9.0,0.0,24.99,paid
+#ORD-1244,2025-01-21 00:00:00,cliente41@email.com,Cliente41,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,0.0,29.99,refunded
+#ORD-1245,2025-01-30 00:00:00,cliente53@email.com,Cliente53,Gorra Trail Running,1,19.99,2.0,4.0,3.99,21.979999999999997,refunded
+#ORD-1246,2025-04-14 00:00:00,cliente34@email.com,Cliente34,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,0.0,29.99,paid
+#ORD-1247,2025-03-15 00:00:00,cliente42@email.com,Cliente42,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,4.99,34.98,paid
+#ORD-1248,2025-01-16 00:00:00,cliente34@email.com,Cliente34,Zapatillas Running X1,2,49.99,5.0,8.5,0.0,89.98,paid
+#ORD-1249,2025-01-15 00:00:00,cliente60@email.com,Cliente60,Mochila Trail 30L,1,59.99,0.0,12.0,0.0,59.99,paid
+#ORD-1250,2025-03-03 00:00:00,cristina.molina@gmail.com,Cristina Molina,Pantalón Corto Sport,2,34.99,0.0,6.5,3.99,73.97,paid
+#ORD-1251,2025-01-26 00:00:00,maría.martínez@gmail.com,María Martínez,Pack Calcetines x5,2,14.99,0.0,2.5,0.0,29.98,paid
+#ORD-1252,2025-03-24 00:00:00,roberto.vega@gmail.com,Roberto Vega,Guantes Running,1,16.99,0.0,3.0,4.99,21.979999999999997,refunded
+#ORD-1253,2025-02-20 00:00:00,cliente49@email.com,Cliente49,Pantalón Corto Sport,1,34.99,0.0,6.5,0.0,34.99,paid
+#ORD-1253,2025-02-20 00:00:00,cliente49@email.com,Cliente49,Botella Térmica 750ml,2,24.99,2.5,9.0,0.0,44.98,paid
+#ORD-1253,2025-02-20 00:00:00,cliente49@email.com,Cliente49,Pack Calcetines x5,2,14.99,1.5,2.5,4.99,31.97,refunded
+#ORD-1254,2025-02-15 00:00:00,miguel.torres@gmail.com,Miguel Torres,Botella Térmica 750ml,2,24.99,0.0,9.0,4.99,54.97,paid
+#ORD-1255,2025-01-23 00:00:00,cliente68@email.com,Cliente68,Zapatillas Running X1,2,49.99,0.0,8.5,4.99,104.97,refunded
+#ORD-1256,2025-02-02 00:00:00,cliente45@email.com,Cliente45,Gorra Trail Running,2,19.99,0.0,4.0,0.0,39.98,paid
+#ORD-1256,2025-02-02 00:00:00,cliente45@email.com,Cliente45,Gorra Trail Running,1,19.99,0.0,4.0,3.99,23.979999999999997,paid
+#ORD-1256,2025-02-02 00:00:00,cliente45@email.com,Cliente45,Guantes Running,2,16.99,2.55,3.0,0.0,28.88,paid
+#ORD-1257,2025-03-03 00:00:00,carmen.romero@gmail.com,Carmen Romero,Pack Calcetines x5,2,14.99,2.25,2.5,0.0,25.48,paid
+#ORD-1258,2025-04-04 00:00:00,cliente50@email.com,Cliente50,Mochila Trail 30L,1,59.99,0.0,12.0,3.99,63.980000000000004,paid
+#ORD-1258,2025-04-04 00:00:00,cliente50@email.com,Cliente50,Zapatillas Running X1,2,49.99,7.5,8.5,0.0,84.98,paid
+#ORD-1259,2025-01-17 00:00:00,cliente64@email.com,Cliente64,Botella Térmica 750ml,1,24.99,2.5,9.0,0.0,22.49,paid
+#ORD-1259,2025-01-17 00:00:00,cliente64@email.com,Cliente64,Zapatillas Running X1,1,49.99,7.5,8.5,0.0,42.49,paid
+#ORD-1259,2025-01-17 00:00:00,cliente64@email.com,Cliente64,Guantes Running,1,16.99,0.0,3.0,0.0,16.99,paid
+#ORD-1260,2025-02-03 00:00:00,cliente44@email.com,Cliente44,Mochila Trail 30L,2,59.99,0.0,12.0,0.0,119.98,paid
+#ORD-1260,2025-02-03 00:00:00,cliente44@email.com,Cliente44,Mochila Trail 30L,1,59.99,9.0,12.0,3.99,54.980000000000004,paid
+#ORD-1260,2025-02-03 00:00:00,cliente44@email.com,Cliente44,Gorra Trail Running,2,19.99,3.0,4.0,0.0,33.98,paid
+#ORD-1261,2025-02-07 00:00:00,fernando.ortega@gmail.com,Fernando Ortega,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,paid
+#ORD-1262,2025-03-09 00:00:00,cliente29@email.com,Cliente29,Mochila Trail 30L,2,59.99,0.0,12.0,3.99,123.97,paid
+#ORD-1262,2025-03-09 00:00:00,cliente29@email.com,Cliente29,Mochila Trail 30L,1,59.99,9.0,12.0,4.99,55.980000000000004,paid
+#ORD-1262,2025-03-09 00:00:00,cliente29@email.com,Cliente29,Mochila Trail 30L,2,59.99,9.0,12.0,0.0,101.98,paid
+#ORD-1263,2025-02-16 00:00:00,cliente64@email.com,Cliente64,Gorra Trail Running,1,19.99,0.0,4.0,3.99,23.979999999999997,paid
+#ORD-1264,2025-03-21 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Gorra Trail Running,2,19.99,0.0,4.0,3.99,43.97,paid
+#ORD-1264,2025-03-21 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Pack Calcetines x5,1,14.99,0.0,2.5,3.99,18.98,paid
+#ORD-1264,2025-03-21 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Zapatillas Running X1,1,49.99,5.0,8.5,4.99,49.980000000000004,refunded
+#ORD-1265,2025-03-30 00:00:00,cliente22@email.com,Cliente22,Guantes Running,2,16.99,0.0,3.0,4.99,38.97,paid
+#ORD-1265,2025-03-30 00:00:00,cliente22@email.com,Cliente22,Guantes Running,1,16.99,0.0,3.0,4.99,21.979999999999997,paid
+#ORD-1266,2025-03-27 00:00:00,laura.sánchez@gmail.com,Laura Sánchez,Zapatillas Running X1,2,49.99,0.0,8.5,0.0,99.98,paid
+#ORD-1266,2025-03-27 00:00:00,laura.sánchez@gmail.com,Laura Sánchez,Gorra Trail Running,1,19.99,2.0,4.0,0.0,17.99,paid
+#ORD-1267,2025-02-19 00:00:00,cliente71@email.com,Cliente71,Gorra Trail Running,2,19.99,0.0,4.0,4.99,44.97,paid
+#ORD-1268,2025-02-21 00:00:00,cliente56@email.com,Cliente56,Zapatillas Running X1,1,49.99,0.0,8.5,0.0,49.99,paid
+#ORD-1269,2025-04-08 00:00:00,cliente53@email.com,Cliente53,Botella Térmica 750ml,2,24.99,0.0,9.0,0.0,49.98,paid
+#ORD-1269,2025-04-08 00:00:00,cliente53@email.com,Cliente53,Zapatillas Running X1,2,49.99,7.5,8.5,4.99,89.97,paid
+#ORD-1269,2025-04-08 00:00:00,cliente53@email.com,Cliente53,Zapatillas Running X1,2,49.99,0.0,8.5,4.99,104.97,paid
+#ORD-1270,2025-04-13 00:00:00,cliente38@email.com,Cliente38,Guantes Running,1,16.99,0.0,3.0,0.0,16.99,paid
+#ORD-1270,2025-04-13 00:00:00,cliente38@email.com,Cliente38,Mochila Trail 30L,2,59.99,0.0,12.0,4.99,124.97,paid
+#ORD-1270,2025-04-13 00:00:00,cliente38@email.com,Cliente38,Botella Térmica 750ml,2,24.99,2.5,9.0,4.99,49.97,paid
+#ORD-1271,2025-02-08 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Pantalón Corto Sport,1,34.99,0.0,6.5,4.99,39.980000000000004,paid
+#ORD-1271,2025-02-08 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Mochila Trail 30L,2,59.99,0.0,12.0,3.99,123.97,refunded
+#ORD-1271,2025-02-08 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Guantes Running,2,16.99,0.0,3.0,3.99,37.97,paid
+#ORD-1272,2025-02-01 00:00:00,antonio.ramos@gmail.com,Antonio Ramos,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,4.99,34.98,paid
+#ORD-1272,2025-02-01 00:00:00,antonio.ramos@gmail.com,Antonio Ramos,Zapatillas Running X1,2,49.99,7.5,8.5,4.99,89.97,refunded
+#ORD-1272,2025-02-01 00:00:00,antonio.ramos@gmail.com,Antonio Ramos,Pack Calcetines x5,2,14.99,0.0,2.5,0.0,29.98,refunded
+#ORD-1273,2025-04-06 00:00:00,laura.sánchez@gmail.com,Laura Sánchez,Mochila Trail 30L,1,59.99,6.0,12.0,0.0,53.99,paid
+#ORD-1273,2025-04-06 00:00:00,laura.sánchez@gmail.com,Laura Sánchez,Pack Calcetines x5,1,14.99,0.0,2.5,0.0,14.99,refunded
+#ORD-1273,2025-04-06 00:00:00,laura.sánchez@gmail.com,Laura Sánchez,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,0.0,59.98,paid
+#ORD-1274,2025-03-21 00:00:00,sofía.ruiz@gmail.com,Sofía Ruiz,Pantalón Corto Sport,2,34.99,5.25,6.5,3.99,63.47,paid
+#ORD-1275,2025-03-09 00:00:00,cliente67@email.com,Cliente67,Zapatillas Running X1,2,49.99,0.0,8.5,4.99,104.97,paid
+#ORD-1275,2025-03-09 00:00:00,cliente67@email.com,Cliente67,Mochila Trail 30L,1,59.99,0.0,12.0,0.0,59.99,paid
+#ORD-1276,2025-02-18 00:00:00,cliente69@email.com,Cliente69,Pantalón Corto Sport,2,34.99,3.5,6.5,4.99,67.97,refunded
+#ORD-1276,2025-02-18 00:00:00,cliente69@email.com,Cliente69,Zapatillas Running X1,1,49.99,0.0,8.5,4.99,54.980000000000004,paid
+#ORD-1277,2025-04-04 00:00:00,cliente52@email.com,Cliente52,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,refunded
+#ORD-1278,2025-03-16 00:00:00,cliente35@email.com,Cliente35,Zapatillas Running X1,2,49.99,0.0,8.5,3.99,103.97,paid
+#ORD-1278,2025-03-16 00:00:00,cliente35@email.com,Cliente35,Guantes Running,1,16.99,0.0,3.0,0.0,16.99,paid
+#ORD-1279,2025-02-24 00:00:00,cliente57@email.com,Cliente57,Botella Térmica 750ml,2,24.99,3.75,9.0,0.0,42.48,paid
+#ORD-1279,2025-02-24 00:00:00,cliente57@email.com,Cliente57,Guantes Running,1,16.99,1.7,3.0,4.99,20.28,paid
+#ORD-1280,2025-02-16 00:00:00,miguel.torres@gmail.com,Miguel Torres,Mochila Trail 30L,1,59.99,0.0,12.0,4.99,64.98,paid
+#ORD-1280,2025-02-16 00:00:00,miguel.torres@gmail.com,Miguel Torres,Zapatillas Running X1,1,49.99,0.0,8.5,0.0,49.99,paid
+#ORD-1280,2025-02-16 00:00:00,miguel.torres@gmail.com,Miguel Torres,Pack Calcetines x5,1,14.99,1.5,2.5,0.0,13.49,paid
+#ORD-1281,2025-03-23 00:00:00,cliente26@email.com,Cliente26,Gorra Trail Running,2,19.99,3.0,4.0,4.99,38.97,paid
+#ORD-1281,2025-03-23 00:00:00,cliente26@email.com,Cliente26,Zapatillas Running X1,1,49.99,0.0,8.5,4.99,54.980000000000004,refunded
+#ORD-1282,2025-02-16 00:00:00,cliente23@email.com,Cliente23,Gorra Trail Running,2,19.99,0.0,4.0,3.99,43.97,paid
+#ORD-1282,2025-02-16 00:00:00,cliente23@email.com,Cliente23,Botella Térmica 750ml,1,24.99,2.5,9.0,0.0,22.49,paid
+#ORD-1283,2025-01-28 00:00:00,cliente74@email.com,Cliente74,Pack Calcetines x5,1,14.99,0.0,2.5,3.99,18.98,refunded
+#ORD-1284,2025-02-04 00:00:00,cliente66@email.com,Cliente66,Zapatillas Running X1,2,49.99,0.0,8.5,0.0,99.98,paid
+#ORD-1285,2025-03-03 00:00:00,cliente29@email.com,Cliente29,Botella Térmica 750ml,2,24.99,2.5,9.0,4.99,49.97,paid
+#ORD-1285,2025-03-03 00:00:00,cliente29@email.com,Cliente29,Guantes Running,2,16.99,0.0,3.0,4.99,38.97,paid
+#ORD-1286,2025-02-03 00:00:00,cliente67@email.com,Cliente67,Pantalón Corto Sport,1,34.99,0.0,6.5,3.99,38.980000000000004,paid
+#ORD-1286,2025-02-03 00:00:00,cliente67@email.com,Cliente67,Botella Térmica 750ml,1,24.99,2.5,9.0,0.0,22.49,paid
+#ORD-1286,2025-02-03 00:00:00,cliente67@email.com,Cliente67,Botella Térmica 750ml,2,24.99,0.0,9.0,3.99,53.97,paid
+#ORD-1287,2025-01-22 00:00:00,cliente25@email.com,Cliente25,Pack Calcetines x5,1,14.99,2.25,2.5,4.99,17.73,paid
+#ORD-1288,2025-01-21 00:00:00,fernando.ortega@gmail.com,Fernando Ortega,Zapatillas Running X1,2,49.99,0.0,8.5,3.99,103.97,refunded
+#ORD-1288,2025-01-21 00:00:00,fernando.ortega@gmail.com,Fernando Ortega,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,paid
+#ORD-1288,2025-01-21 00:00:00,fernando.ortega@gmail.com,Fernando Ortega,Pack Calcetines x5,2,14.99,0.0,2.5,3.99,33.97,paid
+#ORD-1289,2025-03-22 00:00:00,cliente72@email.com,Cliente72,Botella Térmica 750ml,1,24.99,2.5,9.0,0.0,22.49,paid
+#ORD-1290,2025-01-31 00:00:00,cliente72@email.com,Cliente72,Gorra Trail Running,1,19.99,0.0,4.0,3.99,23.979999999999997,paid
+#ORD-1291,2025-02-16 00:00:00,cliente40@email.com,Cliente40,Gorra Trail Running,2,19.99,0.0,4.0,3.99,43.97,refunded
+#ORD-1291,2025-02-16 00:00:00,cliente40@email.com,Cliente40,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,0.0,59.98,refunded
+#ORD-1292,2025-03-03 00:00:00,cliente25@email.com,Cliente25,Camiseta Dry-Fit Pro,2,29.99,4.5,5.0,3.99,54.97,refunded
+#ORD-1292,2025-03-03 00:00:00,cliente25@email.com,Cliente25,Zapatillas Running X1,1,49.99,0.0,8.5,0.0,49.99,paid
+#ORD-1292,2025-03-03 00:00:00,cliente25@email.com,Cliente25,Pantalón Corto Sport,2,34.99,0.0,6.5,3.99,73.97,paid
+#ORD-1293,2025-03-31 00:00:00,elena.navarro@gmail.com,Elena Navarro,Gorra Trail Running,1,19.99,0.0,4.0,0.0,19.99,paid
+#ORD-1293,2025-03-31 00:00:00,elena.navarro@gmail.com,Elena Navarro,Guantes Running,2,16.99,0.0,3.0,0.0,33.98,paid
+#ORD-1294,2025-03-14 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Pantalón Corto Sport,2,34.99,3.5,6.5,4.99,67.97,refunded
+#ORD-1295,2025-04-10 00:00:00,laura.sánchez@gmail.com,Laura Sánchez,Pack Calcetines x5,2,14.99,0.0,2.5,3.99,33.97,paid
+#ORD-1295,2025-04-10 00:00:00,laura.sánchez@gmail.com,Laura Sánchez,Zapatillas Running X1,1,49.99,0.0,8.5,0.0,49.99,paid
+#ORD-1295,2025-04-10 00:00:00,laura.sánchez@gmail.com,Laura Sánchez,Botella Térmica 750ml,1,24.99,0.0,9.0,4.99,29.979999999999997,paid
+#ORD-1296,2025-02-05 00:00:00,cliente22@email.com,Cliente22,Zapatillas Running X1,2,49.99,0.0,8.5,4.99,104.97,paid
+#ORD-1297,2025-02-13 00:00:00,fernando.ortega@gmail.com,Fernando Ortega,Guantes Running,2,16.99,0.0,3.0,0.0,33.98,refunded
+#ORD-1297,2025-02-13 00:00:00,fernando.ortega@gmail.com,Fernando Ortega,Zapatillas Running X1,1,49.99,0.0,8.5,0.0,49.99,paid
+#ORD-1298,2025-02-21 00:00:00,cliente76@email.com,Cliente76,Mochila Trail 30L,1,59.99,0.0,12.0,0.0,59.99,refunded
+#ORD-1298,2025-02-21 00:00:00,cliente76@email.com,Cliente76,Botella Térmica 750ml,1,24.99,3.75,9.0,0.0,21.24,paid
+#ORD-1298,2025-02-21 00:00:00,cliente76@email.com,Cliente76,Zapatillas Running X1,1,49.99,0.0,8.5,4.99,54.980000000000004,refunded
+#ORD-1299,2025-03-06 00:00:00,cliente71@email.com,Cliente71,Guantes Running,1,16.99,0.0,3.0,0.0,16.99,paid
+#ORD-1299,2025-03-06 00:00:00,cliente71@email.com,Cliente71,Pantalón Corto Sport,1,34.99,5.25,6.5,3.99,33.73,paid
+#ORD-1300,2025-03-09 00:00:00,cliente54@email.com,Cliente54,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,0.0,59.98,refunded
+#ORD-1301,2025-01-22 00:00:00,cliente26@email.com,Cliente26,Pack Calcetines x5,2,14.99,2.25,2.5,0.0,25.48,paid
+#ORD-1301,2025-01-22 00:00:00,cliente26@email.com,Cliente26,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,refunded
+#ORD-1301,2025-01-22 00:00:00,cliente26@email.com,Cliente26,Pack Calcetines x5,2,14.99,0.0,2.5,0.0,29.98,paid
+#ORD-1302,2025-02-10 00:00:00,carlos.lópez@gmail.com,Carlos López,Camiseta Dry-Fit Pro,1,29.99,4.5,5.0,4.99,30.479999999999997,paid
+#ORD-1302,2025-02-10 00:00:00,carlos.lópez@gmail.com,Carlos López,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,3.99,33.98,paid
+#ORD-1302,2025-02-10 00:00:00,carlos.lópez@gmail.com,Carlos López,Guantes Running,2,16.99,0.0,3.0,4.99,38.97,paid
+#ORD-1303,2025-02-10 00:00:00,carmen.romero@gmail.com,Carmen Romero,Zapatillas Running X1,2,49.99,0.0,8.5,3.99,103.97,refunded
+#ORD-1304,2025-02-04 00:00:00,patricia.gil@gmail.com,Patricia Gil,Zapatillas Running X1,1,49.99,0.0,8.5,0.0,49.99,paid
+#ORD-1305,2025-02-13 00:00:00,cliente57@email.com,Cliente57,Botella Térmica 750ml,1,24.99,0.0,9.0,3.99,28.979999999999997,paid
+#ORD-1305,2025-02-13 00:00:00,cliente57@email.com,Cliente57,Camiseta Dry-Fit Pro,2,29.99,3.0,5.0,4.99,58.97,paid
+#ORD-1305,2025-02-13 00:00:00,cliente57@email.com,Cliente57,Pantalón Corto Sport,2,34.99,3.5,6.5,0.0,62.98,paid
+#ORD-1306,2025-02-11 00:00:00,cristina.molina@gmail.com,Cristina Molina,Zapatillas Running X1,1,49.99,0.0,8.5,4.99,54.980000000000004,refunded
+#ORD-1306,2025-02-11 00:00:00,cristina.molina@gmail.com,Cristina Molina,Guantes Running,1,16.99,2.55,3.0,4.99,19.43,paid
+#ORD-1306,2025-02-11 00:00:00,cristina.molina@gmail.com,Cristina Molina,Zapatillas Running X1,1,49.99,5.0,8.5,4.99,49.980000000000004,paid
+#ORD-1307,2025-03-19 00:00:00,cliente53@email.com,Cliente53,Zapatillas Running X1,1,49.99,0.0,8.5,3.99,53.980000000000004,paid
+#ORD-1307,2025-03-19 00:00:00,cliente53@email.com,Cliente53,Pack Calcetines x5,2,14.99,2.25,2.5,0.0,25.48,refunded
+#ORD-1308,2025-03-24 00:00:00,cliente32@email.com,Cliente32,Gorra Trail Running,2,19.99,0.0,4.0,0.0,39.98,paid
+#ORD-1308,2025-03-24 00:00:00,cliente32@email.com,Cliente32,Mochila Trail 30L,2,59.99,6.0,12.0,0.0,107.98,paid
+#ORD-1309,2025-03-16 00:00:00,cliente63@email.com,Cliente63,Pack Calcetines x5,2,14.99,0.0,2.5,0.0,29.98,paid
+#ORD-1309,2025-03-16 00:00:00,cliente63@email.com,Cliente63,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,refunded
+#ORD-1310,2025-03-03 00:00:00,cliente57@email.com,Cliente57,Guantes Running,1,16.99,1.7,3.0,4.99,20.28,paid
+#ORD-1310,2025-03-03 00:00:00,cliente57@email.com,Cliente57,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,0.0,59.98,refunded
+#ORD-1310,2025-03-03 00:00:00,cliente57@email.com,Cliente57,Pantalón Corto Sport,1,34.99,5.25,6.5,0.0,29.74,paid
+#ORD-1311,2025-02-02 00:00:00,cliente78@email.com,Cliente78,Botella Térmica 750ml,1,24.99,2.5,9.0,3.99,26.479999999999997,paid
+#ORD-1311,2025-02-02 00:00:00,cliente78@email.com,Cliente78,Zapatillas Running X1,1,49.99,5.0,8.5,3.99,48.980000000000004,refunded
+#ORD-1311,2025-02-02 00:00:00,cliente78@email.com,Cliente78,Gorra Trail Running,2,19.99,0.0,4.0,0.0,39.98,paid
+#ORD-1312,2025-01-18 00:00:00,ana.garcía@gmail.com,Ana García,Gorra Trail Running,2,19.99,3.0,4.0,3.99,37.97,paid
+#ORD-1312,2025-01-18 00:00:00,ana.garcía@gmail.com,Ana García,Zapatillas Running X1,1,49.99,5.0,8.5,0.0,44.99,refunded
+#ORD-1313,2025-02-18 00:00:00,javier.alonso@gmail.com,Javier Alonso,Pack Calcetines x5,1,14.99,0.0,2.5,4.99,19.98,paid
+#ORD-1313,2025-02-18 00:00:00,javier.alonso@gmail.com,Javier Alonso,Guantes Running,1,16.99,0.0,3.0,0.0,16.99,refunded
+#ORD-1314,2025-03-19 00:00:00,pedro.jiménez@gmail.com,Pedro Jiménez,Camiseta Dry-Fit Pro,2,29.99,3.0,5.0,0.0,53.98,refunded
+#ORD-1314,2025-03-19 00:00:00,pedro.jiménez@gmail.com,Pedro Jiménez,Zapatillas Running X1,1,49.99,7.5,8.5,4.99,47.480000000000004,refunded
+#ORD-1314,2025-03-19 00:00:00,pedro.jiménez@gmail.com,Pedro Jiménez,Mochila Trail 30L,1,59.99,0.0,12.0,0.0,59.99,refunded
+#ORD-1315,2025-03-04 00:00:00,cliente77@email.com,Cliente77,Gorra Trail Running,2,19.99,2.0,4.0,0.0,35.98,paid
+#ORD-1315,2025-03-04 00:00:00,cliente77@email.com,Cliente77,Pantalón Corto Sport,2,34.99,0.0,6.5,4.99,74.97,paid
+#ORD-1315,2025-03-04 00:00:00,cliente77@email.com,Cliente77,Mochila Trail 30L,2,59.99,9.0,12.0,3.99,105.97,paid
+#ORD-1316,2025-01-31 00:00:00,cliente71@email.com,Cliente71,Pack Calcetines x5,1,14.99,0.0,2.5,3.99,18.98,paid
+#ORD-1316,2025-01-31 00:00:00,cliente71@email.com,Cliente71,Mochila Trail 30L,1,59.99,9.0,12.0,3.99,54.980000000000004,paid
+#ORD-1316,2025-01-31 00:00:00,cliente71@email.com,Cliente71,Gorra Trail Running,2,19.99,3.0,4.0,4.99,38.97,paid
+#ORD-1317,2025-02-27 00:00:00,cliente55@email.com,Cliente55,Camiseta Dry-Fit Pro,1,29.99,3.0,5.0,0.0,26.99,paid
+#ORD-1318,2025-02-13 00:00:00,cliente26@email.com,Cliente26,Mochila Trail 30L,2,59.99,0.0,12.0,0.0,119.98,paid
+#ORD-1318,2025-02-13 00:00:00,cliente26@email.com,Cliente26,Botella Térmica 750ml,1,24.99,3.75,9.0,0.0,21.24,paid
+#ORD-1319,2025-03-01 00:00:00,cliente58@email.com,Cliente58,Pack Calcetines x5,2,14.99,0.0,2.5,3.99,33.97,paid
+#ORD-1320,2025-01-20 00:00:00,cliente49@email.com,Cliente49,Pantalón Corto Sport,2,34.99,5.25,6.5,0.0,59.48,paid
+#ORD-1320,2025-01-20 00:00:00,cliente49@email.com,Cliente49,Botella Térmica 750ml,1,24.99,3.75,9.0,4.99,26.229999999999997,paid
+#ORD-1321,2025-02-20 00:00:00,cliente48@email.com,Cliente48,Pack Calcetines x5,1,14.99,0.0,2.5,4.99,19.98,paid
+#ORD-1321,2025-02-20 00:00:00,cliente48@email.com,Cliente48,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,0.0,29.99,refunded
+#ORD-1321,2025-02-20 00:00:00,cliente48@email.com,Cliente48,Zapatillas Running X1,2,49.99,0.0,8.5,3.99,103.97,paid
+#ORD-1322,2025-03-13 00:00:00,cliente33@email.com,Cliente33,Gorra Trail Running,2,19.99,0.0,4.0,0.0,39.98,paid
+#ORD-1323,2025-03-01 00:00:00,cliente42@email.com,Cliente42,Zapatillas Running X1,2,49.99,5.0,8.5,3.99,93.97,paid
+#ORD-1323,2025-03-01 00:00:00,cliente42@email.com,Cliente42,Gorra Trail Running,1,19.99,0.0,4.0,0.0,19.99,paid
+#ORD-1323,2025-03-01 00:00:00,cliente42@email.com,Cliente42,Pantalón Corto Sport,2,34.99,0.0,6.5,3.99,73.97,paid
+#ORD-1324,2025-03-08 00:00:00,cliente28@email.com,Cliente28,Gorra Trail Running,2,19.99,0.0,4.0,3.99,43.97,paid
+#ORD-1324,2025-03-08 00:00:00,cliente28@email.com,Cliente28,Guantes Running,1,16.99,0.0,3.0,3.99,20.979999999999997,refunded
+#ORD-1324,2025-03-08 00:00:00,cliente28@email.com,Cliente28,Pack Calcetines x5,1,14.99,0.0,2.5,3.99,18.98,refunded
+#ORD-1325,2025-03-15 00:00:00,patricia.gil@gmail.com,Patricia Gil,Botella Térmica 750ml,2,24.99,0.0,9.0,3.99,53.97,refunded
+#ORD-1325,2025-03-15 00:00:00,patricia.gil@gmail.com,Patricia Gil,Guantes Running,1,16.99,0.0,3.0,0.0,16.99,paid
+#ORD-1326,2025-03-18 00:00:00,cliente66@email.com,Cliente66,Camiseta Dry-Fit Pro,1,29.99,4.5,5.0,0.0,25.49,paid
+#ORD-1327,2025-04-09 00:00:00,cliente27@email.com,Cliente27,Pack Calcetines x5,2,14.99,0.0,2.5,0.0,29.98,refunded
+#ORD-1327,2025-04-09 00:00:00,cliente27@email.com,Cliente27,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,4.99,34.98,paid
+#ORD-1327,2025-04-09 00:00:00,cliente27@email.com,Cliente27,Zapatillas Running X1,1,49.99,0.0,8.5,0.0,49.99,paid
+#ORD-1328,2025-02-15 00:00:00,cliente33@email.com,Cliente33,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,4.99,34.98,refunded
+#ORD-1328,2025-02-15 00:00:00,cliente33@email.com,Cliente33,Guantes Running,2,16.99,1.7,3.0,3.99,34.57,paid
+#ORD-1328,2025-02-15 00:00:00,cliente33@email.com,Cliente33,Pantalón Corto Sport,1,34.99,5.25,6.5,0.0,29.74,paid
+#ORD-1329,2025-04-11 00:00:00,cliente75@email.com,Cliente75,Camiseta Dry-Fit Pro,2,29.99,4.5,5.0,0.0,50.98,paid
+#ORD-1330,2025-02-16 00:00:00,cliente39@email.com,Cliente39,Camiseta Dry-Fit Pro,2,29.99,3.0,5.0,4.99,58.97,refunded
+#ORD-1330,2025-02-16 00:00:00,cliente39@email.com,Cliente39,Zapatillas Running X1,2,49.99,0.0,8.5,0.0,99.98,paid
+#ORD-1330,2025-02-16 00:00:00,cliente39@email.com,Cliente39,Pantalón Corto Sport,2,34.99,0.0,6.5,3.99,73.97,paid
+#ORD-1331,2025-03-22 00:00:00,carlos.lópez@gmail.com,Carlos López,Mochila Trail 30L,1,59.99,0.0,12.0,0.0,59.99,refunded
+#ORD-1331,2025-03-22 00:00:00,carlos.lópez@gmail.com,Carlos López,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,3.99,63.97,paid
+#ORD-1331,2025-03-22 00:00:00,carlos.lópez@gmail.com,Carlos López,Pantalón Corto Sport,1,34.99,0.0,6.5,0.0,34.99,paid
+#ORD-1332,2025-02-01 00:00:00,cliente79@email.com,Cliente79,Pack Calcetines x5,1,14.99,0.0,2.5,0.0,14.99,refunded
+#ORD-1332,2025-02-01 00:00:00,cliente79@email.com,Cliente79,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,3.99,63.97,paid
+#ORD-1333,2025-02-08 00:00:00,cliente26@email.com,Cliente26,Guantes Running,2,16.99,0.0,3.0,0.0,33.98,paid
+#ORD-1333,2025-02-08 00:00:00,cliente26@email.com,Cliente26,Camiseta Dry-Fit Pro,2,29.99,4.5,5.0,0.0,50.98,paid
+#ORD-1333,2025-02-08 00:00:00,cliente26@email.com,Cliente26,Gorra Trail Running,2,19.99,2.0,4.0,3.99,39.97,paid
+#ORD-1334,2025-03-09 00:00:00,cliente75@email.com,Cliente75,Gorra Trail Running,2,19.99,2.0,4.0,0.0,35.98,paid
+#ORD-1335,2025-03-13 00:00:00,cliente29@email.com,Cliente29,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,paid
+#ORD-1335,2025-03-13 00:00:00,cliente29@email.com,Cliente29,Guantes Running,2,16.99,1.7,3.0,3.99,34.57,paid
+#ORD-1335,2025-03-13 00:00:00,cliente29@email.com,Cliente29,Guantes Running,1,16.99,0.0,3.0,0.0,16.99,paid
+#ORD-1336,2025-03-22 00:00:00,fernando.ortega@gmail.com,Fernando Ortega,Pack Calcetines x5,2,14.99,0.0,2.5,0.0,29.98,paid
+#ORD-1336,2025-03-22 00:00:00,fernando.ortega@gmail.com,Fernando Ortega,Zapatillas Running X1,2,49.99,7.5,8.5,0.0,84.98,paid
+#ORD-1336,2025-03-22 00:00:00,fernando.ortega@gmail.com,Fernando Ortega,Botella Térmica 750ml,2,24.99,0.0,9.0,3.99,53.97,refunded
+#ORD-1337,2025-03-01 00:00:00,cliente29@email.com,Cliente29,Botella Térmica 750ml,1,24.99,2.5,9.0,0.0,22.49,refunded
+#ORD-1337,2025-03-01 00:00:00,cliente29@email.com,Cliente29,Gorra Trail Running,1,19.99,0.0,4.0,0.0,19.99,paid
+#ORD-1337,2025-03-01 00:00:00,cliente29@email.com,Cliente29,Guantes Running,1,16.99,0.0,3.0,0.0,16.99,refunded
+#ORD-1338,2025-02-07 00:00:00,pedro.jiménez@gmail.com,Pedro Jiménez,Guantes Running,1,16.99,0.0,3.0,3.99,20.979999999999997,paid
+#ORD-1339,2025-02-15 00:00:00,cliente30@email.com,Cliente30,Pack Calcetines x5,2,14.99,1.5,2.5,4.99,31.97,refunded
+#ORD-1340,2025-03-02 00:00:00,pedro.jiménez@gmail.com,Pedro Jiménez,Gorra Trail Running,1,19.99,3.0,4.0,3.99,20.979999999999997,paid
+#ORD-1341,2025-04-10 00:00:00,cliente73@email.com,Cliente73,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,paid
+#ORD-1342,2025-02-06 00:00:00,cliente29@email.com,Cliente29,Pantalón Corto Sport,2,34.99,0.0,6.5,4.99,74.97,refunded
+#ORD-1342,2025-02-06 00:00:00,cliente29@email.com,Cliente29,Zapatillas Running X1,1,49.99,5.0,8.5,0.0,44.99,paid
+#ORD-1342,2025-02-06 00:00:00,cliente29@email.com,Cliente29,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,0.0,59.98,paid
+#ORD-1343,2025-02-14 00:00:00,cliente78@email.com,Cliente78,Camiseta Dry-Fit Pro,1,29.99,3.0,5.0,3.99,30.979999999999997,paid
+#ORD-1343,2025-02-14 00:00:00,cliente78@email.com,Cliente78,Guantes Running,2,16.99,1.7,3.0,0.0,30.58,paid
+#ORD-1343,2025-02-14 00:00:00,cliente78@email.com,Cliente78,Pantalón Corto Sport,1,34.99,0.0,6.5,0.0,34.99,paid
+#ORD-1344,2025-01-16 00:00:00,cliente21@email.com,Cliente21,Zapatillas Running X1,1,49.99,0.0,8.5,0.0,49.99,paid
+#ORD-1345,2025-04-14 00:00:00,cliente24@email.com,Cliente24,Pantalón Corto Sport,1,34.99,0.0,6.5,0.0,34.99,paid
+#ORD-1345,2025-04-14 00:00:00,cliente24@email.com,Cliente24,Guantes Running,2,16.99,1.7,3.0,0.0,30.58,paid
+#ORD-1345,2025-04-14 00:00:00,cliente24@email.com,Cliente24,Pantalón Corto Sport,1,34.99,5.25,6.5,0.0,29.74,paid
+#ORD-1346,2025-02-07 00:00:00,cliente44@email.com,Cliente44,Camiseta Dry-Fit Pro,1,29.99,3.0,5.0,4.99,31.979999999999997,paid
+#ORD-1346,2025-02-07 00:00:00,cliente44@email.com,Cliente44,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,4.99,34.98,paid
+#ORD-1347,2025-02-16 00:00:00,cliente78@email.com,Cliente78,Mochila Trail 30L,2,59.99,9.0,12.0,0.0,101.98,paid
+#ORD-1348,2025-02-20 00:00:00,cristina.molina@gmail.com,Cristina Molina,Zapatillas Running X1,2,49.99,7.5,8.5,4.99,89.97,paid
+#ORD-1348,2025-02-20 00:00:00,cristina.molina@gmail.com,Cristina Molina,Zapatillas Running X1,2,49.99,0.0,8.5,4.99,104.97,refunded
+#ORD-1348,2025-02-20 00:00:00,cristina.molina@gmail.com,Cristina Molina,Gorra Trail Running,1,19.99,2.0,4.0,0.0,17.99,paid
+#ORD-1349,2025-03-03 00:00:00,cliente62@email.com,Cliente62,Camiseta Dry-Fit Pro,2,29.99,4.5,5.0,4.99,55.97,paid
+#ORD-1350,2025-02-22 00:00:00,cliente25@email.com,Cliente25,Zapatillas Running X1,1,49.99,7.5,8.5,0.0,42.49,refunded
+#ORD-1351,2025-02-25 00:00:00,cliente27@email.com,Cliente27,Gorra Trail Running,2,19.99,0.0,4.0,0.0,39.98,paid
+#ORD-1351,2025-02-25 00:00:00,cliente27@email.com,Cliente27,Pantalón Corto Sport,2,34.99,0.0,6.5,4.99,74.97,paid
+#ORD-1351,2025-02-25 00:00:00,cliente27@email.com,Cliente27,Botella Térmica 750ml,2,24.99,0.0,9.0,4.99,54.97,refunded
+#ORD-1352,2025-02-09 00:00:00,cliente23@email.com,Cliente23,Guantes Running,2,16.99,0.0,3.0,3.99,37.97,refunded
+#ORD-1352,2025-02-09 00:00:00,cliente23@email.com,Cliente23,Mochila Trail 30L,1,59.99,0.0,12.0,4.99,64.98,paid
+#ORD-1353,2025-03-05 00:00:00,carmen.romero@gmail.com,Carmen Romero,Pantalón Corto Sport,2,34.99,5.25,6.5,0.0,59.48,paid
+#ORD-1354,2025-02-08 00:00:00,cliente50@email.com,Cliente50,Zapatillas Running X1,1,49.99,0.0,8.5,4.99,54.980000000000004,refunded
+#ORD-1354,2025-02-08 00:00:00,cliente50@email.com,Cliente50,Camiseta Dry-Fit Pro,1,29.99,0.0,5.0,0.0,29.99,paid
+#ORD-1354,2025-02-08 00:00:00,cliente50@email.com,Cliente50,Camiseta Dry-Fit Pro,1,29.99,3.0,5.0,4.99,31.979999999999997,paid
+#ORD-1355,2025-02-07 00:00:00,cliente77@email.com,Cliente77,Mochila Trail 30L,2,59.99,6.0,12.0,0.0,107.98,paid
+#ORD-1356,2025-01-27 00:00:00,cliente67@email.com,Cliente67,Pack Calcetines x5,1,14.99,2.25,2.5,0.0,12.74,paid
+#ORD-1356,2025-01-27 00:00:00,cliente67@email.com,Cliente67,Zapatillas Running X1,2,49.99,0.0,8.5,0.0,99.98,paid
+#ORD-1357,2025-03-15 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Pantalón Corto Sport,2,34.99,3.5,6.5,4.99,67.97,paid
+#ORD-1357,2025-03-15 00:00:00,alejandro.díaz@gmail.com,Alejandro Díaz,Zapatillas Running X1,1,49.99,0.0,8.5,3.99,53.980000000000004,paid
+#ORD-1358,2025-01-21 00:00:00,cliente45@email.com,Cliente45,Pack Calcetines x5,1,14.99,1.5,2.5,4.99,18.48,paid
+#ORD-1358,2025-01-21 00:00:00,cliente45@email.com,Cliente45,Botella Térmica 750ml,1,24.99,2.5,9.0,0.0,22.49,paid
+#ORD-1359,2025-03-12 00:00:00,cliente65@email.com,Cliente65,Gorra Trail Running,1,19.99,3.0,4.0,3.99,20.979999999999997,paid
+#ORD-1359,2025-03-12 00:00:00,cliente65@email.com,Cliente65,Guantes Running,2,16.99,2.55,3.0,4.99,33.87,paid
+#ORD-1360,2025-02-19 00:00:00,cliente44@email.com,Cliente44,Guantes Running,1,16.99,1.7,3.0,0.0,15.29,paid
+#ORD-1360,2025-02-19 00:00:00,cliente44@email.com,Cliente44,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,0.0,59.98,paid
+#ORD-1361,2025-02-28 00:00:00,cliente46@email.com,Cliente46,Zapatillas Running X1,2,49.99,0.0,8.5,3.99,103.97,paid
+#ORD-1361,2025-02-28 00:00:00,cliente46@email.com,Cliente46,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,refunded
+#ORD-1361,2025-02-28 00:00:00,cliente46@email.com,Cliente46,Gorra Trail Running,2,19.99,0.0,4.0,3.99,43.97,paid
+#ORD-1362,2025-02-03 00:00:00,cliente25@email.com,Cliente25,Pack Calcetines x5,1,14.99,0.0,2.5,3.99,18.98,paid
+#ORD-1362,2025-02-03 00:00:00,cliente25@email.com,Cliente25,Pack Calcetines x5,1,14.99,0.0,2.5,3.99,18.98,paid
+#ORD-1363,2025-03-20 00:00:00,roberto.vega@gmail.com,Roberto Vega,Guantes Running,1,16.99,2.55,3.0,0.0,14.44,refunded
+#ORD-1364,2025-01-22 00:00:00,cliente48@email.com,Cliente48,Gorra Trail Running,2,19.99,3.0,4.0,3.99,37.97,refunded
+#ORD-1364,2025-01-22 00:00:00,cliente48@email.com,Cliente48,Mochila Trail 30L,2,59.99,6.0,12.0,0.0,107.98,paid
+#ORD-1364,2025-01-22 00:00:00,cliente48@email.com,Cliente48,Zapatillas Running X1,2,49.99,5.0,8.5,0.0,89.98,paid
+#ORD-1365,2025-01-30 00:00:00,cliente23@email.com,Cliente23,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,0.0,59.98,paid
+#ORD-1365,2025-01-30 00:00:00,cliente23@email.com,Cliente23,Pack Calcetines x5,2,14.99,2.25,2.5,0.0,25.48,paid
+#ORD-1366,2025-01-28 00:00:00,cliente47@email.com,Cliente47,Botella Térmica 750ml,1,24.99,3.75,9.0,3.99,25.229999999999997,paid
+#ORD-1366,2025-01-28 00:00:00,cliente47@email.com,Cliente47,Botella Térmica 750ml,2,24.99,3.75,9.0,3.99,46.47,paid
+#ORD-1366,2025-01-28 00:00:00,cliente47@email.com,Cliente47,Mochila Trail 30L,2,59.99,6.0,12.0,0.0,107.98,refunded
+#ORD-1367,2025-03-31 00:00:00,cliente48@email.com,Cliente48,Pantalón Corto Sport,2,34.99,3.5,6.5,0.0,62.98,paid
+#ORD-1367,2025-03-31 00:00:00,cliente48@email.com,Cliente48,Pack Calcetines x5,1,14.99,0.0,2.5,0.0,14.99,refunded
+#ORD-1368,2025-04-11 00:00:00,cliente26@email.com,Cliente26,Mochila Trail 30L,2,59.99,0.0,12.0,0.0,119.98,refunded
+#ORD-1369,2025-01-29 00:00:00,cliente64@email.com,Cliente64,Gorra Trail Running,2,19.99,0.0,4.0,3.99,43.97,paid
+#ORD-1370,2025-03-21 00:00:00,cliente21@email.com,Cliente21,Pack Calcetines x5,2,14.99,1.5,2.5,0.0,26.98,refunded
+#ORD-1371,2025-02-15 00:00:00,cliente43@email.com,Cliente43,Gorra Trail Running,2,19.99,3.0,4.0,3.99,37.97,paid
+#ORD-1371,2025-02-15 00:00:00,cliente43@email.com,Cliente43,Zapatillas Running X1,2,49.99,0.0,8.5,3.99,103.97,paid
+#ORD-1372,2025-04-11 00:00:00,cliente69@email.com,Cliente69,Botella Térmica 750ml,2,24.99,0.0,9.0,4.99,54.97,refunded
+#ORD-1373,2025-03-18 00:00:00,elena.navarro@gmail.com,Elena Navarro,Botella Térmica 750ml,2,24.99,0.0,9.0,0.0,49.98,paid
+#ORD-1373,2025-03-18 00:00:00,elena.navarro@gmail.com,Elena Navarro,Pantalón Corto Sport,2,34.99,0.0,6.5,0.0,69.98,paid
+#ORD-1374,2025-04-10 00:00:00,cliente41@email.com,Cliente41,Botella Térmica 750ml,2,24.99,3.75,9.0,4.99,47.47,paid
+#ORD-1374,2025-04-10 00:00:00,cliente41@email.com,Cliente41,Guantes Running,2,16.99,2.55,3.0,4.99,33.87,refunded
+#ORD-1375,2025-04-10 00:00:00,maría.martínez@gmail.com,María Martínez,Pack Calcetines x5,2,14.99,0.0,2.5,0.0,29.98,paid
+#ORD-1376,2025-03-13 00:00:00,carmen.romero@gmail.com,Carmen Romero,Guantes Running,1,16.99,0.0,3.0,4.99,21.979999999999997,paid
+#ORD-1377,2025-03-18 00:00:00,javier.alonso@gmail.com,Javier Alonso,Mochila Trail 30L,1,59.99,6.0,12.0,3.99,57.980000000000004,paid
+#ORD-1377,2025-03-18 00:00:00,javier.alonso@gmail.com,Javier Alonso,Pack Calcetines x5,2,14.99,1.5,2.5,0.0,26.98,paid
+#ORD-1378,2025-03-17 00:00:00,cliente68@email.com,Cliente68,Zapatillas Running X1,1,49.99,0.0,8.5,3.99,53.980000000000004,refunded
+#ORD-1379,2025-02-05 00:00:00,cliente60@email.com,Cliente60,Botella Térmica 750ml,2,24.99,0.0,9.0,0.0,49.98,refunded
+#ORD-1379,2025-02-05 00:00:00,cliente60@email.com,Cliente60,Pantalón Corto Sport,2,34.99,0.0,6.5,4.99,74.97,paid
+#ORD-1379,2025-02-05 00:00:00,cliente60@email.com,Cliente60,Camiseta Dry-Fit Pro,2,29.99,0.0,5.0,3.99,63.97,refunded
+#ORD-1380,2025-04-11 00:00:00,cliente39@email.com,Cliente39,Zapatillas Running X1,1,49.99,0.0,8.5,3.99,53.980000000000004,refunded
+#ORD-1381,2025-04-10 00:00:00,cliente63@email.com,Cliente63,Botella Térmica 750ml,1,24.99,2.5,9.0,3.99,26.479999999999997,paid
+#ORD-1381,2025-04-10 00:00:00,cliente63@email.com,Cliente63,Zapatillas Running X1,2,49.99,0.0,8.5,4.99,104.97,refunded
+#ORD-1382,2025-03-04 00:00:00,cliente51@email.com,Cliente51,Mochila Trail 30L,2,59.99,6.0,12.0,0.0,107.98,paid
+#ORD-1383,2025-02-14 00:00:00,cliente31@email.com,Cliente31,Botella Térmica 750ml,2,24.99,3.75,9.0,3.99,46.47,refunded
+#ORD-1383,2025-02-14 00:00:00,cliente31@email.com,Cliente31,Pack Calcetines x5,1,14.99,0.0,2.5,0.0,14.99,paid
+#ORD-1383,2025-02-14 00:00:00,cliente31@email.com,Cliente31,Camiseta Dry-Fit Pro,2,29.99,4.5,5.0,4.99,55.97,paid
+#ORD-1384,2025-03-25 00:00:00,cliente80@email.com,Cliente80,Pack Calcetines x5,2,14.99,0.0,2.5,0.0,29.98,paid
+#ORD-1384,2025-03-25 00:00:00,cliente80@email.com,Cliente80,Zapatillas Running X1,1,49.99,0.0,8.5,3.99,53.980000000000004,paid
+#ORD-1385,2025-01-29 00:00:00,cristina.molina@gmail.com,Cristina Molina,Guantes Running,1,16.99,0.0,3.0,0.0,16.99,paid
+#ORD-1385,2025-01-29 00:00:00,cristina.molina@gmail.com,Cristina Molina,Zapatillas Running X1,2,49.99,0.0,8.5,3.99,103.97,refunded
+#ORD-1385,2025-01-29 00:00:00,cristina.molina@gmail.com,Cristina Molina,Botella Térmica 750ml,2,24.99,0.0,9.0,4.99,54.97,paid
+#ORD-1386,2025-03-09 00:00:00,cliente43@email.com,Cliente43,Mochila Trail 30L,1,59.99,0.0,12.0,4.99,64.98,paid
+#ORD-1387,2025-03-15 00:00:00,cliente70@email.com,Cliente70,Mochila Trail 30L,1,59.99,0.0,12.0,4.99,64.98,paid
+#ORD-1387,2025-03-15 00:00:00,cliente70@email.com,Cliente70,Camiseta Dry-Fit Pro,1,29.99,3.0,5.0,4.99,31.979999999999997,paid
